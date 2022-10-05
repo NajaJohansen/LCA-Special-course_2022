@@ -4,7 +4,7 @@ import json
 from typing import List
 
 print("Hv or er jeg")
-#jeg er
+#jeg er naja
 
 def get_epd_info_level_2(epd_data: dict):
     #print('hej')
