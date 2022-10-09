@@ -6,6 +6,19 @@ from typing import List
 print("Hv or er jeg")
 #jeg er naja
 
+
+def findgwp(list: list):
+    counterr = 0
+    for item in list:
+        if item['referenceToLCIAMethodDataSet']['shortDescription'][0]['value'] == 'Global warming potential (GWP)':
+            return counterr
+        else:
+            counterr += 1
+
+
+
+
+
 def get_epd_info_level_2(epd_data: dict):
     #print('hej')
     if 'modellingAndValidation' in epd_data and 'LCIMethodAndAllocation' in epd_data['modellingAndValidation'] and \
@@ -26,18 +39,22 @@ def get_epd_info_level_2(epd_data: dict):
         name_list.append('No value')
 
 # TODO: find det sted i 'LCIAResult', der indeholder 'Global warming potential (GWP)'
+
     if 'anies' in epd_data['LCIAResults']['LCIAResult'][0]['other']:
         temp = []
         for gwp_dict in epd_data['LCIAResults']['LCIAResult'][0]['other']['anies']:
-            if epd_data['LCIAResults']['LCIAResult'][0]['referenceToLCIAMethodDataSet']['shortDescription'][0]['value'] == 'Global warming potential (GWP)':
+            #findgwp metoden finder det indeks hvor GWP dataen befinder sig. Dette sikrer os at vi finder GWP dataen uanset hvor den ligger. Da rækkefølgen for kategorierne kan variere
+            if epd_data['LCIAResults']['LCIAResult'][findgwp(epd_data['LCIAResults']['LCIAResult'])]['referenceToLCIAMethodDataSet']['shortDescription'][0]['value'] == 'Global warming potential (GWP)':
                 if 'value' in gwp_dict:
                     temp.append(gwp_dict['value'])
                 else:
                     temp.append('No value')
-        GWP_list.append(temp)
 
-    else:
-        GWP_list.append("No value")
+
+    GWP_list.append(temp)
+
+
+
 
 
 
