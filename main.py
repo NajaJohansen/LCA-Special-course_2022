@@ -38,7 +38,7 @@ def get_epd_info_level_2(epd_data: dict):
     else:
         name_list.append('No value')
 
-
+    print('Hej')
 # TODO: find det sted i 'LCIAResult', der indeholder 'Global warming potential (GWP)'
 
     if 'anies' in epd_data['LCIAResults']['LCIAResult'][0]['other']:
