@@ -1,12 +1,15 @@
 import requests
 from requests.auth import HTTPBasicAuth
 import json
+from functions import find_sum_of_phases
+from functions import add_phases_to_set
+
 from typing import List
 
 print("Hv or er jeg")
 #jeg er naja
 
-
+#En funktion som går igennem listen med alle påvirkningskategorier. Funktionen leder efter GWP og retunerer dets indeks.
 def findgwp(list: list):
     counterr = 0
     for item in list:
@@ -40,19 +43,33 @@ def get_epd_info_level_2(epd_data: dict):
 
     print('Hej')
 # TODO: find det sted i 'LCIAResult', der indeholder 'Global warming potential (GWP)'
+    temp = []
+    if 'anies' in epd_data['LCIAResults']['LCIAResult'][findgwp(epd_data['LCIAResults']['LCIAResult'])]['other']:
 
-    if 'anies' in epd_data['LCIAResults']['LCIAResult'][0]['other']:
-        temp = []
-        for gwp_dict in epd_data['LCIAResults']['LCIAResult'][0]['other']['anies']:
-            #findgwp metoden finder det indeks hvor GWP dataen befinder sig. Dette sikrer os at vi finder GWP dataen uanset hvor den ligger. Da rækkefølgen for kategorierne kan variere
-            if epd_data['LCIAResults']['LCIAResult'][findgwp(epd_data['LCIAResults']['LCIAResult'])]['referenceToLCIAMethodDataSet']['shortDescription'][0]['value'] == 'Global warming potential (GWP)':
-                if 'value' in gwp_dict:
-                    temp.append(gwp_dict['value'])
-                else:
-                    temp.append('No value')
+        theindex = findgwp(epd_data['LCIAResults']['LCIAResult'])
 
-
+        if len(epd_data['LCIAResults']['LCIAResult'][theindex]['other']['anies']) != 0:
+            add_phases_to_set(epd_data['LCIAResults']['LCIAResult'][theindex]['other']['anies'], set_of_phases)
+            temp.append(find_sum_of_phases(epd_data['LCIAResults']['LCIAResult'][theindex]['other']['anies']))
+        else:
+            temp.append('No value')
+    else:
+        temp.append('No value')
     GWP_list.append(temp)
+
+
+
+
+
+        #for gwp_dict in epd_data['LCIAResults']['LCIAResult'][0]['other']['anies']:
+            #findgwp metoden finder det indeks hvor GWP dataen befinder sig. Dette sikrer os at vi finder GWP dataen uanset hvor den ligger. Da rækkefølgen for kategorierne kan variere
+         #       if 'module' in gwp_dict:
+          #          temp.append(find_sum_of_phases(epd_data['LCIAResults']['LCIAResult'][0]['other']['anies']))
+           #     else:
+            #        temp.append('No value')
+
+
+
 
 
 
@@ -102,26 +119,49 @@ overview = {}
 # The parameters that we need when we send request for each epd
 parameters = '&format=json&view=extended'
 
+set_of_phases = set()
 name_list = []  # One list with all the names
 functional_unit_list = []  # One list with all the functional units
 stage_list = []  # A list with lists that has this order of stages
 classification_list = []
 GWP_list = []
-# Loop going through each of the epds that we have requested
+# Loop going through each of the epds that we have requested. Skips EPD if something goes wrong.
 counter = 0
 for epd in data['data']:
+
     epd_url = epd['uri']  # This is the url that we need to make a request
     get_epd_info_level_1(epd, overview)  # Here we are collecting initial information about each epd
     # TODO: here we could sort the epds from the initial info. Some are not relevant and we can already see that here.
     search_url = f'{epd_url}{parameters}'  # We are concatenating our url with the parameters that we need.
     epd_data = requests.get(search_url, headers={'Authorization': token})
-    epd_data_json = epd_data.json()  # This is the json with the information that we need to get all the information
-    get_epd_info_level_2(epd_data_json)
+    try:
+        epd_data_json = epd_data.json()  # This is the json with the information that we need to get all the information
+        get_epd_info_level_2(epd_data_json)
+    except:
+        continue
+
     stages = []  # This is the list with the results for each stage
-    #print('test')
+    # print('test')
+    if counter > 15:
+        print("stop")
     counter += 1
-    if counter > 50:
-        break
+#Kalder på hjælpefil "Phase_names"
+for phase in set_of_phases:
+    f = open("phase_names.txt", "a")
+    f.write(phase)
+    f.write("\n")
+    f.close()
+
+
+
+
+
+
+
+
+
+
+
 
 print(overview)
 # This is some code to save the json as a file in case we want to send something to others
