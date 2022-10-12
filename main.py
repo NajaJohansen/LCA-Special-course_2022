@@ -145,7 +145,7 @@ for epd in data['data']:
 
     stages = []  # This is the list with the results for each stage
     # print('test')
-    if counter > 15:
+    if counter > 50:
         print("stop")
     counter += 1
 #Kalder på hjælpefil "Phase_names"
