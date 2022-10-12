@@ -52,7 +52,7 @@ def get_epd_info_level_2(epd_data: dict):
                     temp.append('No value')
 
 
-    GWP_list.append(temp)
+        GWP_list.append(temp)
 
 
 
@@ -87,14 +87,17 @@ def get_epd_info_level_1(epd: dict, overview: dict):
 
 
 # First url to get all the epds
-URL = 'https://data.eco-platform.org/resource/processes?search=true&distributed=true&virtual=true&metaDataOnly=false&validUntil=2022&format=JSON'
+URL = 'https://data.eco-platform.org/resource/processes?search=true&distributed=true&virtual=true&metaDataOnly=false'
 
 # The token and username gotten from the ECO portal
 authorization = HTTPBasicAuth('laerkeV', '')
 token = 'Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsYWVya2VWIiwiaXNzIjoiRUNPUE9SVEFMIiwiYXVkIjoiYW55IiwidmVyIjoiNy40LjIiLCJwZXJtaXNzaW9ucyI6WyJzdG9jazpyZWFkLGV4cG9ydDoyIiwic3RvY2s6cmVhZCxleHBvcnQ6MSIsInVzZXI6cmVhZCx3cml0ZToxNTQiXSwicm9sZXMiOltdLCJpYXQiOjE2NjMxNjQ5ODIsImV4cCI6MTY3MTA0ODk4MiwiZW1haWwiOiJzMTczODMyQHN0dWRlbnQuZHR1LmRrIiwidGl0bGUiOiIiLCJmaXJzdE5hbWUiOiJMYWVya2UiLCJsYXN0TmFtZSI6IlZlanNuYWVzIiwiZ2VuZXJhdGVOZXdUb2tlbnMiOmZhbHNlLCJqb2JQb3NpdGlvbiI6IlN0dWRlbnQiLCJhZGRyZXNzIjp7ImNpdHkiOiJLb25nZW5zIEx5bmdieSIsInppcENvZGUiOiIyODAwIiwiY291bnRyeSI6IkRLIiwic3RyZWV0IjoiIn0sIm9yZ2FuaXphdGlvbiI6e30sInVzZXJHcm91cHMiOlt7InVzZXJHcm91cE5hbWUiOiJyZWdpc3RlcmVkX3VzZXJzIiwidXNlckdyb3VwT3JnYW5pemF0aW9uTmFtZSI6IkRlZmF1bHQgT3JnYW5pemF0aW9uIn1dLCJhZG1pbmlzdHJhdGVkT3JnYW5pemF0aW9uc05hbWVzIjoiIiwicGhvbmUiOiIiLCJkc3B1cnBvc2UiOiJGb3IgYSBzY2hvb2wgcHJvamVjdCBhdCBteSBtYXN0ZXJzIGluIEFyY2hpdGVjdHVyYWwgRW5nZW5lZXJpbmcgYXQgRFRVLiBXZSBhcmUgYSBncm91cCBvZiBzdHVkZW50cyB0aGF0IGFyZSB3b2tpbmcgb24gbGVhbmluZyBob3cgdG8gd29yayB3aXRoIExDQSBhbmQgRVBEcy4iLCJzZWN0b3IiOiIiLCJpbnN0aXR1dGlvbiI6IlRlY2huaWNhbCBVbml2ZXJzaXR5IG9mIERlbm1hcmsgLSBEVFUifQ.VWCEmxgB4HSDCYJ7tdZtx-ZZWzxNVgLDXKH4-PqZEzgbBl2erK63MLtGigartJ0no6LDZuThbVxNzD10-IMjrcIn_bKEmo60gnFc9xXTPGZVjL4CybRPhdPx1lEfGFD_zh8r3mhhuUJrf73vtdVVnK-DQ0e4ji7-W2dl0NnuYVI'
 
+# Parameters to sech for
+meta_parameters = {'pageSize': '323', 'location': 'DE', 'validUntil': '2022', 'format': 'JSON', 'classes': 'bauprodukte'}
+
 # The initial request is made and turned into json, so that we can get the information about each epd
-initial_request = requests.get(url=URL, headers={'Authorization': token})
+initial_request = requests.get(url=URL, headers={'Authorization': token}, params=meta_parameters)
 data = initial_request.json()
 
 # Dictionary to gather information
