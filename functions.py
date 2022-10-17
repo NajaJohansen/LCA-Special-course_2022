@@ -1,10 +1,11 @@
 import copy
 
+#En funktion som går igennem listen med alle påvirkningskategorier. Funktionen leder efter GWP og retunerer dets indeks.
 def findgwp(list: list):
     counterr = 0
     for item in list:
-        item_list = item['referenceToLCIAMethodDataSet']['shortDescription'][0]['value']
-        if item_list == 'Global warming potential (GWP)' or item_list == 'Global Warming Potential total (GWP-total)':
+        print(item)
+        if 'GWP' in item['referenceToLCIAMethodDataSet']['shortDescription'][0]['value']:
             return counterr
 
         else:
