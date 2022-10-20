@@ -1,7 +1,6 @@
 import requests
 from requests.auth import HTTPBasicAuth
 import json
-from functions import find_sum_of_phases
 from functions import add_phases_to_set
 from Level1_function import get_epd_info_level_1
 from Level2_function import get_epd_info_level_2
@@ -47,12 +46,14 @@ for epd in data['data']:
     get_epd_info_level_1(epd, overview)  # Here we are collecting initial information about each epd
     # TODO: here we could sort the epds from the initial info. Some are not relevant and we can already see that here.
     search_url = f'{epd_url}{parameters}'  # We are concatenating our url with the parameters that we need.
-    epd_data = requests.get(search_url, headers={'Authorization': token})
-    epd_data_json = epd_data.json()  # This is the json with the information that we need to get all the information
-    get_epd_info_level_2(epd_data_json,classification_list,name_list,GWP_list)
-
-
-
+    try:
+        epd_data = requests.get(search_url, headers={'Authorization': token})
+        epd_data_json = epd_data.json()  # This is the json with the information that we need to get all the information
+        get_epd_info_level_2(epd_data_json, classification_list, name_list,GWP_list)
+    except:
+        classification_list.append('No value')
+        name_list.append('No value')
+        GWP_list.append([0,0,0,0,0])
 
     counter += 1
 #Kalder på hjælpefil "Phase_names"
