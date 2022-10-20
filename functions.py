@@ -14,6 +14,18 @@ def findgwp(list: list):
                 return -1
 
 
+def findIBUcategories (list:list):
+    counterrr = 0
+    for dict in list:
+        print(dict)
+        if 'IBU' in dict['name']:
+            print(dict['name'])
+            return counterrr
+        else:
+            counterrr += 1
+            if counterrr > len(list):
+                return -1
+
 
 #Summerer fasernes værdier i tilfælde af at de er adskilte i datasættet
 def find_sum_of_phases(list: list):
