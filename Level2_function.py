@@ -1,6 +1,6 @@
 from functions import *
 
-def get_epd_info_level_2(epd_data: dict,classification_list:list, name_list:list,GWP_list:list  ):
+def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: list, GWP_list: list, IBU_categories_list: list):
     #print('hej')
     if 'modellingAndValidation' in epd_data and 'LCIMethodAndAllocation' in epd_data['modellingAndValidation'] and \
             'referenceToLCAMethodDetails' in epd_data['modellingAndValidation']['LCIMethodAndAllocation'] and \
@@ -34,18 +34,19 @@ def get_epd_info_level_2(epd_data: dict,classification_list:list, name_list:list
         temp.append('No value')
     GWP_list.append(temp)
 
+    tempp = []
+    if 'classification' in epd_data['processInformation']['dataSetInformation']['classificationInformation']:
+        IBUindex = findIBUcategories(epd_data['processInformation']['dataSetInformation']['classificationInformation']['classification'])
 
+        class_list = epd_data['processInformation']['dataSetInformation']['classificationInformation']['classification'][IBUindex]['class']
+        for element in class_list:
+            if 'Bauprodukte' in element['value']:
+                continue
+            tempp.append(element['value'])
 
+    else:
+        tempp.append('No value')
 
-
-        #for gwp_dict in epd_data['LCIAResults']['LCIAResult'][0]['other']['anies']:
-            #findgwp metoden finder det indeks hvor GWP dataen befinder sig. Dette sikrer os at vi finder GWP dataen uanset hvor den ligger. Da rækkefølgen for kategorierne kan variere
-         #       if 'module' in gwp_dict:
-          #          temp.append(find_sum_of_phases(epd_data['LCIAResults']['LCIAResult'][0]['other']['anies']))
-           #     else:
-            #        temp.append('No value')
-
-
-
+    IBU_categories_list.append(tempp)
 
 
