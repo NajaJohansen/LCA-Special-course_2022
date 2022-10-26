@@ -40,14 +40,16 @@ data = initial_request.json()
 # Loop going through each of the epds that we have requested. Skips EPD if something goes wrong.
 counter = 0
 for epd in data['data']:
-    if counter > 5:
-            print("stop")
+    if counter > 75:
+        print("stop")
+
     epd_url = epd['uri']  # This is the url that we need to make a request
     get_epd_info_level_1(epd, overview)  # Here we are collecting initial information about each epd
     # TODO: here we could sort the epds from the initial info. Some are not relevant and we can already see that here.
     search_url = f'{epd_url}{parameters}'  # We are concatenating our url with the parameters that we need.
 
     epd_data = requests.get(search_url, headers={'Authorization': token})
+    get_epd_info_level_1(epd, overview)  # Here we are collecting initial information about each epd
     epd_data_json = epd_data.json()  # This is the json with the information that we need to get all the information
     get_epd_info_level_2(epd_data_json, classification_list, name_list,GWP_list,IBU_categories_list)
 
