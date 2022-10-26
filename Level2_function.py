@@ -8,7 +8,7 @@ def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: l
             'value' in epd_data['modellingAndValidation']['LCIMethodAndAllocation']['referenceToLCAMethodDetails'][0]['shortDescription'][0]:
         classification_value = epd_data['modellingAndValidation']['LCIMethodAndAllocation']['referenceToLCAMethodDetails'][0]['shortDescription'][0]['value']
         classification_list.append(classification_value)
-        print(classification_value)
+        #print(classification_value)
     else:
         classification_list.append('No value')
 
@@ -27,7 +27,7 @@ def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: l
         theindex = findgwp(epd_data['LCIAResults']['LCIAResult'])
 
         if len(epd_data['LCIAResults']['LCIAResult'][theindex]['other']['anies']) != 0:
-            temp.append(find_sum_of_phases(epd_data['LCIAResults']['LCIAResult'][theindex]['other']['anies']))
+            temp = find_sum_of_phases(epd_data['LCIAResults']['LCIAResult'][theindex]['other']['anies'])
         else:
             temp.append('No value')
     else:
