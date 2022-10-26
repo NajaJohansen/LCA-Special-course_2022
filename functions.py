@@ -4,7 +4,7 @@ import copy
 def findgwp(list: list):
     counterr = 0
     for item in list:
-        print(item)
+        #print(item)
         if 'GWP' in item['referenceToLCIAMethodDataSet']['shortDescription'][0]['value']:
             return counterr
 
@@ -17,9 +17,9 @@ def findgwp(list: list):
 def findIBUcategories (list:list):
     counterrr = 0
     for dict in list:
-        print(dict)
+        #print(dict)
         if 'IBU' in dict['name']:
-            print(dict['name'])
+            #print(dict['name'])
             return counterrr
         else:
             counterrr += 1
@@ -40,7 +40,7 @@ def find_sum_of_phases(list: list):
     for dict in list:
         if "module" in dict:
             #Checker alle A Faser og summere hvis de er opdelt
-            if ("A1-A3") in dict['module']:
+            if 'A1-A3' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_a1_to_a3_phases = the_sum
             elif 'A1' in dict['module']:
@@ -52,10 +52,11 @@ def find_sum_of_phases(list: list):
             elif 'A3' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_a1_to_a3_phases += the_sum
-            elif 'A4' in dict['module']:
+
+            if 'A4' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_a4_phase += the_sum
-            elif 'A5' in dict['module']:
+            if 'A5' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_a5_phase += the_sum
 
