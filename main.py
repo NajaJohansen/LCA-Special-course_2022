@@ -41,7 +41,7 @@ data = initial_request.json()
 counter = 0
 for epd in data['data']:
     if counter > 5:
-        print("stop")
+            print("stop")
     epd_url = epd['uri']  # This is the url that we need to make a request
     get_epd_info_level_1(epd, overview)  # Here we are collecting initial information about each epd
     # TODO: here we could sort the epds from the initial info. Some are not relevant and we can already see that here.
@@ -54,7 +54,7 @@ for epd in data['data']:
     classification_list.append('No value')
     name_list.append('No value')
     GWP_list.append([0,0,0,0,0])
-
+    print(counter)
     counter += 1
 #Kalder på hjælpefil "Phase_names"
 for phase in set_of_phases:
@@ -62,8 +62,6 @@ for phase in set_of_phases:
     f.write(phase)
     f.write("\n")
     f.close()
-
-
 
 
 
