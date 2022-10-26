@@ -40,8 +40,8 @@ data = initial_request.json()
 # Loop going through each of the epds that we have requested. Skips EPD if something goes wrong.
 counter = 0
 for epd in data['data']:
-    if counter > 5:
-        print("stop")
+    if counter > 50:
+            print("stop")
     epd_url = epd['uri']  # This is the url that we need to make a request
     get_epd_info_level_1(epd, overview)  # Here we are collecting initial information about each epd
     # TODO: here we could sort the epds from the initial info. Some are not relevant and we can already see that here.
