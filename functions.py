@@ -1,10 +1,13 @@
 import copy
 
-#En funktion som går igennem listen med alle påvirkningskategorier. Funktionen leder efter GWP og retunerer dets indeks.
+import re
+
+
+# En funktion som går igennem listen med alle påvirkningskategorier. Funktionen leder efter GWP og retunerer dets indeks.
 def findgwp(list: list):
     counterr = 0
     for item in list:
-        #print(item)
+        # print(item)
         if 'GWP' in item['referenceToLCIAMethodDataSet']['shortDescription'][0]['value']:
             return counterr
 
@@ -14,12 +17,12 @@ def findgwp(list: list):
                 return -1
 
 
-def findIBUcategories (list:list):
+def findIBUcategories(list: list):
     counterrr = 0
     for dict in list:
-        #print(dict)
+        # print(dict)
         if 'IBU' in dict['name']:
-            #print(dict['name'])
+            # print(dict['name'])
             return counterrr
         else:
             counterrr += 1
@@ -27,7 +30,7 @@ def findIBUcategories (list:list):
                 return -1
 
 
-#Summerer fasernes værdier i tilfælde af at de er adskilte i datasættet
+# Summerer fasernes værdier i tilfælde af at de er adskilte i datasættet
 def find_sum_of_phases(list: list):
     sum_of_a1_to_a3_phases = 0
     sum_of_a4_phase = 0
@@ -39,7 +42,7 @@ def find_sum_of_phases(list: list):
 
     for dict in list:
         if "module" in dict:
-            #Checker alle A Faser og summere hvis de er opdelt
+            # Checker alle A Faser og summere hvis de er opdelt
             if 'A1-A3' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_a1_to_a3_phases = the_sum
@@ -60,14 +63,14 @@ def find_sum_of_phases(list: list):
                 the_sum = (float(dict['value']))
                 sum_of_a5_phase += the_sum
 
-            #B faser
+            # B faser
             if 'B4' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_b4_phases = the_sum
             if 'B6' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_b6_phases = the_sum
-            #C faserne checkes
+            # C faserne checkes
             if 'C3-C4' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_c3_to_c4_phases += the_sum
@@ -78,12 +81,9 @@ def find_sum_of_phases(list: list):
                 the_sum = (float(dict['value']))
                 sum_of_c3_to_c4_phases += the_sum
 
-
-
-    list_to_be_returned = [sum_of_a1_to_a3_phases, sum_of_a4_phase, sum_of_a5_phase, sum_of_b4_phases, sum_of_b6_phases, sum_of_c3_to_c4_phases]
+    list_to_be_returned = [sum_of_a1_to_a3_phases, sum_of_a4_phase, sum_of_a5_phase, sum_of_b4_phases, sum_of_b6_phases,
+                           sum_of_c3_to_c4_phases]
     return list_to_be_returned
-
-
 
 
 def add_phases_to_set(list: list, set: set):
@@ -92,20 +92,15 @@ def add_phases_to_set(list: list, set: set):
             set.add(dict['module'])
 
 
+def add_functional_unit(list: list):
+    #Det her er regexudtrykket: deklarierte einheit.*?(\d+.[^\s]+)
+    for dict in list:
 
-dict_list = []
-adict = {'value': 4, 'module': 'A1A2A3'}
-bdict = {'value': 10, 'module': 'a1'}
-cdict = {'value': 1, 'module': 'a1'}
-ddict = {'value': 1, 'module': 'a1'}
-fdict = {'value': 43, 'module': 'a1'}
+        if "deklarierte einheit" in dict['value'].lower():
 
-#.copy for at få en liste til at tage et dictionary, ellers brokker den sig :)
-dict_list.append(adict.copy())
-dict_list.append(bdict.copy())
-
-
-
-
+            longString = dict['value'].lower().replace('\n', " ").replace('\r', " ")
+            #print(longString)
+            enhed = re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString).group(1)
+            print(enhed)
 
 

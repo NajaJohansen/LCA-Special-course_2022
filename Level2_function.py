@@ -49,4 +49,5 @@ def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: l
 
     IBU_categories_list.append(tempp)
 
-
+    if 'technologyDescriptionAndIncludedProcesses' in epd_data['processInformation']['technology']:
+        add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
