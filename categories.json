@@ -1,0 +1,257 @@
+{
+  "Mauerwerk und Mörtel": {
+    "en": "Masonry and related products",
+    "pcr": {
+      "Kalksandstein": {
+        "en": "Lime sand bricks",
+        "lifetime": 80,
+        "level_1_category": "Facade",
+        "level_2_category": "Brickwork"
+      },
+      "Ziegel": {
+        "en": "Bricks",
+        "lifetime": 80,
+        "level_1_category": "Facade",
+        "level_2_category": "Brickwork"
+      },
+      "Mineralische Werkmörtel": {
+        "en": "Mineral factory-made mortar",
+        "lifetime": 80,
+        "level_1_category": "Facade",
+        "level_2_category": "Brickwork (mortar)"
+      }
+    }
+  },
+  "Fassaden": {
+    "en": "Facades",
+    "pcr": {
+      "Vorhangfassaden": {
+        "en": "Curtain walling",
+        "lifetime": 25,
+        "level_1_category": "Facade",
+        "level_2_category": "Curtain Wall"
+      },
+      "Keramische Bekleidung": {
+        "en": "Ceramic panelling",
+        "lifetime": 60,
+        "level_1_category": "Facade",
+        "level_2_category": "Ceramic tiles & panels"
+      },
+      "Faserzement / Faserbeton": {
+        "en": "Fibre cement / Fibre concrete",
+        "lifetime": 60,
+        "level_1_category": "Facade",
+        "level_2_category": "Fibre cement & Fiber concrete"
+      },
+      "Schichtpressstoffe": {
+        "en": "Laminates",
+        "lifetime": 60,
+        "level_1_category": "Facade",
+        "level_2_category": "Laminates"
+      },
+      "Bedachungs- und Fassadensysteme aus Aluminium": {
+        "en": "Aluminium roofing and cladding systems",
+        "lifetime": 60,
+        "level_1_category": "Facade",
+        "level_2_category": "Metal"
+      },
+      "Naturwerkstein für Dach-, Wand- und Bodenanwendungen": {
+        "en": "Dimension stone for roof, wall and floor applications",
+        "lifetime": 120,
+        "level_1_category": "Facade",
+        "level_2_category": "Natural stone"
+      },
+      "Sandwichelemente mit beidseitigen Metalldeckschichten": {
+        "en": "Double skin metal faced sandwich panels",
+        "lifetime": 60,
+        "level_1_category": "Facade",
+        "level_2_category": "Sandwich panel"
+      },
+      "Fassadenelemente aus Holz-Polymer-Verbundwerkstoffen (WPC)": {
+        "en": "Wood polymer composite facade elements",
+        "lifetime": 50,
+        "level_1_category": "Facade",
+        "level_2_category": "Wood & Wood composite panelsCurtain Wall"
+      }
+    }
+  },
+  "Innen-, Außenwand und Deckenbekleidungen": {
+    "en": "Internal and external wall and ceiling finishes",
+    "pcr": {
+      "Keramische Fliesen und Platten": {
+        "en": "Ceramic tiles and panels",
+        "lifetime": 60,
+        "level_1_category": ["Facade", "Indoor surface"],
+        "level_2_category": "Ceramic tiles and panels"
+      },
+      "Leichtbauplatten aus Leichtfüllstoffen und reaktiven Harzen": {
+        "en": "Lightweight boards made of lightweight fillers and reactive resins",
+        "lifetime": 60,
+        "level_1_category": "Facade",
+        "level_2_category": "Laminates"
+      },
+      "Faserzement / Faserbeton": {
+        "en": "Fibre cement / Fibre concrete",
+        "lifetime": 60,
+        "level_1_category": ["Facade", "Interior board & Panels"],
+        "level_2_category": "Fibre cement & Fiber concrete"
+      },
+      "Mineralplatten": {
+        "en": "Mineral panels",
+        "lifetime": 60,
+        "level_1_category": "Interior board & Panels",
+        "level_2_category": "Fibre cement & Fiber concrete"
+      },
+      "Tapeten": {
+        "en": "Wall coverings",
+        "lifetime": 60,
+        "level_1_category": "Indoor surface",
+        "level_2_category": "Wallpaper"
+      }
+    }
+  },
+  "Normal- Leicht- und Porenbeton": {
+    "en": "Normal/lightweight/autoclaved aerated concrete products",
+    "pcr": {
+      "Faserzement / Faserbeton": {
+        "en": "Fibre cement / Fibre concrete",
+        "lifetime": 60,
+        "level_1_category": "Facade",
+        "level_2_category": "Fibre cement & Fiber concrete"
+      },
+      "Betonbauteile aus Ort- oder Lieferbeton": {
+        "en": "Concrete components made of in-situ or ready-mixed concrete",
+        "lifetime": 120,
+        "level_1_category": "Structure",
+        "level_2_category": "Concrete"
+      },
+      "Porenbeton": {
+        "en": "Aerated concrete",
+        "lifetime": 80,
+        "level_1_category": "Structure",
+        "level_2_category": "Concrete"
+      },
+      "Leichtbeton": {
+        "en": "Lightweight concrete",
+        "lifetime": 80,
+        "level_1_category": "Structure",
+        "level_2_category": "Concrete"
+      },
+      "Betonfertigteile": {
+        "en": "Pre-cast concrete components",
+        "lifetime": 80,
+        "level_1_category": "Structure",
+        "level_2_category": "Concrete"
+      }
+    }
+  },
+  "Metallbauprodukte und Zubehör": {
+    "en": "Metallic products and ancillaries",
+    "pcr": {
+      "Baumetalle": {
+        "en": "Building metals",
+        "lifetime": 60,
+        "level_1_category": "Facade",
+        "level_2_category": "Metal"
+      },
+      "Produkte aus Aluminium und Aluminiumlegierungen": {
+        "en": "Products of aluminium and aluminium alloys",
+        "lifetime": 60,
+        "level_1_category": "Facade",
+        "level_2_category": "Metal"
+      },
+      "Baustähle": {
+        "en": "Structural steels",
+        "lifetime": 120,
+        "level_1_category": "Structure",
+        "level_2_category": "Steel"
+      }
+    }
+  },
+  "Wärmedämmungsprodukte": {
+    "en": "MetaThermal insulation products",
+    "pcr": {
+      "Dämmstoffe aus Schaumkunststoffen": {
+        "en": "Insulating materials made of foam plastics",
+        "lifetime": 60,
+        "level_1_category": "Insulation",
+        "level_2_category": "Plastic based "
+      },
+      "Mineralische Dämmstoffe": {
+        "en": "Mineral insulating materials",
+        "lifetime": 80,
+        "level_1_category": "Insulation",
+        "level_2_category": "Mineral based "
+      },
+      "Einblasdämmstoffe aus Zellulose- und Holzfasern": {
+        "en": "Blow-in insulation materials made from cellulose and wood fibres",
+        "lifetime": 60,
+        "level_1_category": "Insulation",
+        "level_2_category": "Biogenic "
+      },
+      "zementäre Schäume": {
+        "en": "cement-based foams",
+        "lifetime": 80,
+        "level_1_category": "Insulation",
+        "level_2_category": "Mineral based"
+      }
+    }
+  },
+  "Produkte aus Bauholz": {
+    "en": "Structural timber products",
+    "pcr": {
+      "Vollholzprodukte": {
+        "en": "Solid wood products",
+        "lifetime": 120,
+        "level_1_category": "Structure",
+        "level_2_category": "Wood"
+      },
+      "Vorgefertigte tragende Elemente aus Holz und Holzwerkstoffen": {
+        "en": "Prefabricated wood-based load bearing stressed skin panels",
+        "lifetime": 120,
+        "level_1_category": "Structure",
+        "level_2_category": "Wood"
+      }
+    }
+  },
+  "Gipsprodukte": {
+    "en": "Gypsum products",
+    "pcr": {
+      "Gipsplatten": {
+        "en": "Plasterboard",
+        "lifetime": 50,
+        "level_1_category": "Interior board & Panels",
+        "level_2_category": "Gypsum plasterboards "
+      }
+    }
+  },
+  "Holzwerkstoffe": {
+    "en": "Wood based panels",
+    "pcr": {
+      "Holzwerkstoffe": {
+        "en": "Wood based panels",
+        "lifetime": 30,
+        "level_1_category": "Interior board & Panels",
+        "level_2_category": "Wooden panel"
+      },
+      "Holzzement - Mineralisch gebundene Holzwerkstoffe": {
+        "en": "Wood cement - Mineral-bonded wooden composites",
+        "lifetime": 60,
+        "level_1_category": "Interior board & Panels",
+        "level_2_category": "Wood concrete acoustic plates"
+      }
+    }
+  },
+  "Bauklebstoffe und Beschichtungen": {
+    "en": "Construction adhesives and coatings",
+    "pcr": {
+      "Beschichtungen mit organischen Bindemitteln": {
+        "en": "Coatings with organic binders",
+        "lifetime": 15,
+        "level_1_category": "Indoor surface",
+        "level_2_category": "Paint"
+      }
+    }
+  }
+
+}
