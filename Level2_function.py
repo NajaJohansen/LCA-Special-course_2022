@@ -1,6 +1,6 @@
 from functions import *
 
-def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: list, GWP_list: list, IBU_categories_list: list):
+def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: list, GWP_list: list, IBU_categories_list: list, uuid_list: list):
     #print('hej')
     if 'modellingAndValidation' in epd_data and 'LCIMethodAndAllocation' in epd_data['modellingAndValidation'] and \
             'referenceToLCAMethodDetails' in epd_data['modellingAndValidation']['LCIMethodAndAllocation'] and \
@@ -51,3 +51,12 @@ def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: l
 
     if 'technologyDescriptionAndIncludedProcesses' in epd_data['processInformation']['technology']:
         add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
+
+
+
+# TODO: find 'UUID'
+    if 'UUID' in epd_data['processInformation']['dataSetInformation']:
+        uuid_value = epd_data['processInformation']['dataSetInformation']['UUID']
+        uuid_list.append(uuid_value)
+    else:
+        uuid_list.append('No value')

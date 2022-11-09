@@ -17,6 +17,7 @@ functional_unit_list = []  # One list with all the functional units
 classification_list = []
 GWP_list = []# A list with lists that has this order of stages
 IBU_categories_list = []
+uuid_list = []
 
 #                                                              __STEP 1__
 # First url to get all the epds
@@ -40,7 +41,7 @@ data = initial_request.json()
 # Loop going through each of the epds that we have requested. Skips EPD if something goes wrong.
 counter = 0
 for epd in data['data']:
-    if counter > 2:
+    if counter > 10:
         print("stop")
 
     epd_url = epd['uri']  # This is the url that we need to make a request
@@ -51,7 +52,7 @@ for epd in data['data']:
     epd_data = requests.get(search_url, headers={'Authorization': token})
     if epd_data.status_code == 200:
         epd_data_json = epd_data.json()  # This is the json with the information that we need to get all the information
-        get_epd_info_level_2(epd_data_json, classification_list, name_list, GWP_list, IBU_categories_list)
+        get_epd_info_level_2(epd_data_json, classification_list, name_list, GWP_list, IBU_categories_list, uuid_list)
 
         print(counter)
 
