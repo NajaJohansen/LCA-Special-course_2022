@@ -97,11 +97,42 @@ def add_functional_unit(list: list):
     for dict in list:
 
         if "deklarierte einheit" in dict['value'].lower():
-
             longString = dict['value'].lower().replace('\n', " ").replace('\r', " ")
-            #print(longString)
-            enhed = re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString).group(1)
-            print(enhed)
+            result = ''
+            isCorrect = False
+
+            if re.search('deklarierte einheit.+(einen.[^\s]+)', longString) != None:
+                enhed = re.search('deklarierte einheit.+(einen.[^\s]+)', longString).group(1)
+                if 'meter' in enhed:
+                    result = enhed
+                    isCorrect = True
+
+
+            if re.search('deklarierte einheit.*?(\d+[^\s]+)', longString) is not None and isCorrect is False:
+                enhed = re.search('deklarierte einheit.*?(\d+[^\s]+)', longString).group(1)
+                if 'm' or 'k' or 'g' or 't' in enhed:
+                    print(enhed)
+                    result = enhed
+                    isCorrect = True
+
+
+
+            if re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString) is not None and isCorrect is False:
+                enhed = re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString).group(1)
+                if 'cm' in enhed:
+                    isCorrect = False
+                    print()
+                else:
+                    result = enhed
+                    isCorrect = True
+
+            if isCorrect:
+                return result
+
+            else:
+                return 'No value'
+
+
 
 
 

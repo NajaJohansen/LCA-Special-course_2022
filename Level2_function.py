@@ -1,6 +1,6 @@
 from functions import *
 
-def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: list, GWP_list: list, IBU_categories_list: list):
+def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: list, GWP_list: list, IBU_categories_list: list, functional_unit_list: list):
     #print('hej')
     if 'modellingAndValidation' in epd_data and 'LCIMethodAndAllocation' in epd_data['modellingAndValidation'] and \
             'referenceToLCAMethodDetails' in epd_data['modellingAndValidation']['LCIMethodAndAllocation'] and \
@@ -16,6 +16,8 @@ def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: l
 
         name_value = epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]['value']
         name_list.append(name_value)
+        if name_value == 'Braas Dachsteine Frankfurter, Taunus, Doppel-S, Harzer':
+            print('frede')
     else:
         name_list.append('No value')
 
@@ -49,5 +51,8 @@ def get_epd_info_level_2(epd_data: dict, classification_list: list, name_list: l
 
     IBU_categories_list.append(tempp)
 
+
     if 'technologyDescriptionAndIncludedProcesses' in epd_data['processInformation']['technology']:
-        add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
+        unit = add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
+        functional_unit_list.append(unit)
+
