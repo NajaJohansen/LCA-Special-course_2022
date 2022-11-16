@@ -102,18 +102,13 @@ def add_functional_unit(list: list):
 
             longString = dict['value'].lower().replace('\n', " ").replace('\r', " ")
             #print(longString)
-            if re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString) is not None:
-                enhed = re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString).group(1)
+            if re.search('deklarierte einheit.*?(m²|m2)', longString) is not None:
+                enhed = re.search('deklarierte einheit.*?(m²|m2)', longString).group(1)
+                print('m2 or m2 ', enhed)
+            elif re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString) is not None:
+                enhed = re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString).group(1)
 
-                if enhed.startswith("1"):
-                    if ('k' or 'm' or 't' or 'g') in enhed:
-                        if '4' or '5' or '6' or '7' or '8' or '9' not in enhed:
-                            print(enhed)
-                            shouldReturn = True
-        if shouldReturn:
-                return enhed
-        else:
-                return 'No value'
+                print('tal efterfulgt ', enhed)
 
 
 

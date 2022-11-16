@@ -2,12 +2,746 @@
     "name_list": [
         "A2-Betonpflaster- Standardstein grau mit Vorsatz",
         "AESTUVER T Brandschutzplatte",
-        "AESTUVER Tx Brandschutzplatte"
+        "AESTUVER Tx Brandschutzplatte",
+        "AESTUVER Brandschutzplatte",
+        "ALWI-S Profilsystem",
+        "AQUAPANEL\u00ae Cement Board Indoor",
+        "AQUAPANEL\u00ae Cement Board Outdoor",
+        "AQUAPANEL\u00ae Cement Board Rooftop 12,5 mm",
+        "AQUAPANEL\u00ae Cement Board Rooftop 6 mm",
+        "Admonter Massivholzmehrschichtprodukte",
+        "Aluminium-Pressbolzen",
+        "Aluminium-Pressbolzen",
+        "Aluminium-Strangpressbolzen",
+        "Schiebel\u00e4den aus Aluminium",
+        "Aluminiumprofil anodisiert",
+        "Aluminiumprofil beschichtet",
+        "Aluminiumprofil pressblank",
+        "Aluminiumprofil pressblank",
+        "Argeton",
+        "ArmaPET\u00ae Eco50",
+        "Balkone",
+        "Beton der Druckfestigkeitsklasse C 20/25",
+        "Beton der Druckfestigkeitsklasse C 25/30",
+        "Beton der Druckfestigkeitsklasse C 30/37",
+        "Beton der Druckfestigkeitsklasse C 35/45",
+        "Beton der Druckfestigkeitsklasse C 45/55",
+        "Beton der Druckfestigkeitsklasse C 50/60",
+        "Beton-Pflastersteine",
+        "Beton-Pflastersteine mit bis zu 40 % Recyclinganteil",
+        "Betonpflastersteine",
+        "Betonpflastersteine",
+        "Braas Dachsteine Frankfurter, Taunus, Doppel-S, Harzer",
+        "Mauerziegel (mit D\u00e4mmstoff gef\u00fcllt)",
+        "Mauerziegel (mit D\u00e4mmstoff gef\u00fcllt)",
+        "Mauerziegel (ungef\u00fcllt)",
+        "Mauerziegel (ungef\u00fcllt)",
+        "Verblenderkonsole JVAeco+",
+        "Butyl Dichtungsbahn NovoProof\u00ae (FAI)",
+        "CALOSTAT\u00ae",
+        "CF-F CT3",
+        "CF-I CT3",
+        "CLIMAFLEX\u00ae STABIL / EXENTROFLEX\u00ae COMPACT aus NMC NATUREFOAM\u00ae",
+        "COMAX R\u00fcckbiegeanschluss-System",
+        "CXT Typ K-M1-V1-REI120-CV26-H200-1.0",
+        "Tr\u00e4gerplatten. Rezepturen in den Qualit\u00e4ten (Klasse) B1 gem\u00e4\u00df DIN 4102-1 und A2-s1, d0 gem\u00e4\u00df EN 13501-1",
+        "Zellulose-Einblasd\u00e4mmung STEICOfloc und STEICOfloc NB",
+        "Schienensysteme",
+        "Clima Comfort",
+        "Cobiax CLS Strukturgeber",
+        "Combar\u00ae",
+        "Lambada Forte Betonpflasterstein",
+        "REDOTTO-RC Betonpflasterstein",
+        "Spannbeton-Weichenschwellen, TSF-A",
+        "Spannbeton-Weichenschwellen, voestalpine",
+        "Konstruktive Fertigteile",
+        "Wellplatten aus Faserzement unbeschichtet / beschichtet",
+        "Cosmofin/Monarplan",
+        "Gro\u00dfformatplatten - GFP",
+        "GIPSPLATTE - TROCKENESTRICH / Tool",
+        "Dachsteine",
+        "Dachziegel",
+        "Dachziegel Neufahrn",
+        "Dispersionsbasierte Produkte, l\u00f6semittelfrei",
+        "Dispersionsbasierte Produkte, l\u00f6semittelhaltig",
+        "Dispersionsputz",
+        "Dispersionssilikatputz",
+        "T\u00fcrdr\u00fccker",
+        "Trockenestrich - Gipsfaserplatte/Tool",
+        "EGGER Comfort-Boden",
+        "EGGER DHF",
+        "EGGER Design-Boden",
+        "EGGER Eurodekor - beschichtete MDF",
+        "EGGER Eurodekor - beschichtete Spanplatten",
+        "EGGER Schichtstoff",
+        "EGGER Schichtstoff Flammex",
+        "EGGER Laminatfussboden",
+        "EGGER Schichtstoff Micro",
+        "EGGER OSB-Platten",
+        "EGGER Schnittholz",
+        "EPDM Dach- und Dichtungsbahnen NOVOPROOF DA, FA, DA-F, DA-K, DA-S, DA-G",
+        "EPDM Dach- und Dichtungsbahnen NOVOPROOF \u00ae DA, FA, DA-F, DA-K, DA-S, DA-G, DA-FG, DA-SK",
+        "EPDM-Dach- und Dichtungsbahnen EVALASTIC\u00aeV,VG,VSGK",
+        "EQUITONE Linea / Lunara Faserzementtafeln",
+        "EQUITONE Pictura / Natura Pro Faserzementtafel",
+        "EVA-Dach- und Dichtungsbahnen EVALON\u00aeV,VG,VSK, dual",
+        "Epoxid Pulverlack",
+        "Estrichm\u00f6rtel-Calciumsulfatestrich",
+        "Estrichm\u00f6rtel-Zementestrich",
+        "Ebene Platten, klein- und mittelformatig, aus Faserzement",
+        "EPS-Hartschaum (Rohdichte 15 kg/m\u00b3)",
+        "EPS-Hartschaum (Rohdichte 15 kg/m\u00b3)",
+        "EPS-Hartschaum (Rohdichte 20 kg/m\u00b3)",
+        "EPS-Hartschaum (Rohdichte 20 kg/m\u00b3)",
+        "EPS-Hartschaum (Rohdichte 25 kg/m\u00b3)",
+        "EPS-Hartschaum (Rohdichte 25 kg/m\u00b3)",
+        "EPS-Hartschaum (Rohdichte 30 kg/m\u00b3)",
+        "EPS-Hartschaum (Rohdichte 30 kg/m\u00b3)",
+        "EPS-Hartschaum (grau, Rohdichte 15 kg/m\u00b3)",
+        "EPS-Hartschaum (grau, Rohdichte 15 kg/m\u00b3)",
+        "EPS-Hartschaum (grau, Rohdichte 20 bis 25 kg/m\u00b3)",
+        "EPS-Hartschaum (grau, Rohdichte 20 bis 25 kg/m\u00b3)",
+        "Sonnenstoren aus Aluminiumlamellen Metalunic",
+        "GIPSPLATTE - FEUERSCHUTZ / Tool",
+        "Hohlbodensystem Typ FLOOR and more\u00ae",
+        "Vormauerziegel, Pflasterziegel und Riemchen",
+        "Fassadenanker Isolink\u00ae",
+        "Fassadenfarben auf Dispersionsbasis",
+        "Fermacell Powerpanel H2O",
+        "Fermacell Powerpanel HD",
+        "Wellplatten",
+        "Faserzement-Dachplatten",
+        "Fixit 222 Aerogel Hochleistungsd\u00e4mmputz",
+        "Elementdecken",
+        "Fundermax m.look-Schichtstoffplatten",
+        "GLAPOR Schaumglas",
+        "GUTEX Thermoflex",
+        "GIPSPUTZ/Tool",
+        "Geotextilien",
+        "Getufteter Teppichboden, Polmaterial PA 6, Poleinsatzgewicht max. 1400 g/m\u00b2, Vliesr\u00fccken aus 280 g/m\u00b2 Polyester",
+        "Getufteter Teppichboden, Polmaterial PA 6, Poleinsatzgewicht max. 1400 g/m\u00b2, Vliesr\u00fccken aus 550 g/m\u00b2 Polyester",
+        "Getufteter Teppichboden, Polmaterial PA 6.6, Poleinsatzgewicht max. 1400 g/m\u00b2, Vliesr\u00fccken aus 280 g/m\u00b2 Polyester",
+        "Getufteter Teppichboden, Polmaterial PA 6.6, Poleinsatzgewicht max. 1400 g/m\u00b2, Vliesr\u00fccken aus 550 g/m\u00b2 Polyester",
+        "Getufteter Teppichboden, Polmaterial PA 6.6, Poleinsatzgewicht max. 1400 g/m\u00b2, textiler Geweber\u00fccken",
+        "Getufteter Teppichboden, Polmaterial Wolle/PA 6.6, Poleinsatzgewicht max. 1800 g/m\u00b2, Vliesr\u00fccken aus 280 g/m\u00b2 Polyester",
+        "Getufteter Teppichboden, Polmaterial Wolle/PA 6.6, Poleinsatzgewicht max. 1800 g/m\u00b2, Vliesr\u00fccken aus 550 g/m\u00b2 Polyester",
+        "Getufteter Teppichboden, Polmaterial Wolle/PA 6.6, Poleinsatzgewicht max. 1800 g/m\u00b2, textiler Geweber\u00fccken",
+        "Gewebter Teppichboden als Bahnenware mit Pol, Polmaterial 600-750 g/m\u00b2, Polyamid 6",
+        "Gewebter Teppichboden als Bahnenware mit Pol, Polmaterial 750-900 g/m\u00b2, Polyamid 6",
+        "Gewebter Teppichboden als Bahnenware, Polmaterial 450-650 g/m\u00b2 spinnd\u00fcsengef\u00e4rbt, Polyamid 6",
+        "Gewebter Teppichboden als Bahnenware, Polmaterial 450-650 g/m\u00b2, Polyamid 6.6",
+        "Gewebter Teppichboden als Bahnenware, Polmaterial 450-650 g/m\u00b2, Polyamid 6.6, Vlies",
+        "Gewebter Teppichboden als Bahnenware, Polmaterial 900-1100 g/m\u00b2, Polyamid 6.6",
+        "Gewebter Teppichboden als Bahnenware, Polmaterial 900-1100 g/m\u00b2, Polyamid 6.6, Vlies",
+        "Glasfaserbeton concrete skin und \u00f6ko skin",
+        "Glasarmierungsgitter",
+        "Brettschichtholz, Balkenschichtholz, Verbundbauteile aus Brettschichtholz",
+        "Gro\u00dfformatige Elemente aus Leichtbeton",
+        "HALFEN Iso-ElemenT HIT-HP MVX",
+        "HALFEN Ankerschienensysteme HTA-CE (HTA) und HZA",
+        "Brettsperrholz HASSLACHER CROSS LAMINATED TIMBER",
+        "HEBEL Bewehrter Porenbeton",
+        "HENSOTHERM\u00ae 410 KS / 420 KS / 421 KS / 461 KS / 471 KS und RENITHERM\u00ae PMA 600 HD / 1200 HD",
+        "Haftvermittler auf Dispersionsbasis",
+        "Haftvermittler auf Dispersionssilikatbasis",
+        "Hartgipsplatte",
+        "Heiz- und K\u00fchldeckensystem aus Stahl",
+        "Grobblech",
+        "Grobblech",
+        "Hochdichte Faserplatte (HDF)",
+        "Holzfaser-Einblasd\u00e4mmung STEICOzell",
+        "Feuerverzinktes Stahlband",
+        "Warmumgeformte Stahlpressteile (\"phs-ultraform\")",
+        "Warmgewalztes Stahlband",
+        "Hybrid - Pulverlack",
+        "GIPSPLATTE - IMPR\u00c4GNIERT / Tool",
+        "Innenwandfarben auf Dispersionsbasis, Nassabriebbest\u00e4ndigkeit Klasse 1",
+        "Innenwandfarben auf Dispersionsbasis, Nassabriebbest\u00e4ndigkeit Klasse 2",
+        "Innenwandfarben auf Dispersionsbasis, Nassabriebbest\u00e4ndigkeit Klasse 3",
+        "D\u00e4mmplatte mit Neopor\u00ae Plus",
+        "Innent\u00fcren aus Holz und Holzwerkstoffen",
+        "JACKOBOARD\u00ae",
+        "Fassaden- und Wandplatten aus Jura Kalkstein",
+        "Fliesen und Bodenplatten aus Jura Kalkstein",
+        "KLH Massivholzplatten (Kreuzlagenholz)",
+        "KXT50-CV35-V6-H200-REI120",
+        "Keramische Fassadenplatte TONALITY\u00ae",
+        "Kleber und Unterputz mit organischem Bindemittel",
+        "Kooltherm K5",
+        "Kooltherm S7",
+        "K\u00e4ltekautschuk Plus S3 Platte",
+        "GIPS-KALKPUTZ / Tool",
+        "Laminat-Fu\u00dfbodenbel\u00e4ge",
+        "Sonnenstoren aus Aluminiumlamellen Lamisol, Aluflex, Grinotex und Solomatic",
+        "Grossformatige Faserzementplatte grau beschichtet",
+        "Grossformatige Faserzementplatte pigmentiert beschichtet",
+        "Grossformatige Faserzementplatte Weisszement beschichtet",
+        "Lindura\u00ae-Holzboden",
+        "Longlife-Parkett",
+        "Lose Zellulosed\u00e4mmung",
+        "MAX Compactplatten",
+        "MAXI-TEC\u00ae CW- und UW-Profile",
+        "MOVEO Raumtrennsystem",
+        "Massive Gips-Wandbauplatte nach DIN EN 12859 / Tool",
+        "Mauerm\u00f6rtel-D\u00fcnnbettm\u00f6rtel/M\u00f6rtel mit besonderen Eigenschaften",
+        "Mauerm\u00f6rtel-Leichtmauerm\u00f6rtel",
+        "Mauerm\u00f6rtel-Normalmauerm\u00f6rtel (v.2019)",
+        "Mauerm\u00f6rtel-Vormauerm\u00f6rtel/M\u00f6rtel mit besonderen Eigenschaften",
+        "Mauersteine aus Leichtbeton aus nat\u00fcrlichen Zuschl\u00e4gen - Hohlblock -",
+        "Mauersteine aus Leichtbeton aus nat\u00fcrlichen Zuschl\u00e4gen - Vollblock leicht -",
+        "Mauersteine aus Leichtbeton aus nat\u00fcrlichen Zuschl\u00e4gen - Vollstein schwer -",
+        "Mauerziegel aus der Produktserie SILVACOR",
+        "Mitteldichte Faserplatte (MDF)",
+        "Metalldeckensystem",
+        "Metalldeckensysteme aus Aluminium",
+        "Metalldeckensysteme aus Stahl",
+        "Metalldeckensysteme aus Stahl als Heiz- und K\u00fchldecke",
+        "Metawall\u00ae",
+        "Metawall\u00ae A2",
+        "Metawell\u00ae Decken-/Wandpaneel glatt",
+        "Metawell\u00ae Decken-/Wandpaneel perforiert",
+        "Methacrylatharzprodukte, ungef\u00fcllt oder niedrig gef\u00fcllt",
+        "Methacrylatharze als Bindemittel f\u00fcr Methacrylatharzprodukte",
+        "Methacrylatharzprodukte, hochgef\u00fcllt, M\u00f6rtel",
+        "Mikropor\u00f6se Calciumsilikat-W\u00e4rmed\u00e4mmstoffe",
+        "Mineralwolle-D\u00e4mmstoff im hohen Rohdichtebereich",
+        "Mineralwolle-D\u00e4mmstoff im niedrigen Rohdichtebereich",
+        "Mineralwolle-D\u00e4mmstoff im mittleren Rohdichtebereich",
+        "Mineralplatte (wet-felt) 15mm",
+        "Designboden Modular ONE",
+        "Mehrschichtparkett",
+        "Mehrschichtparkett",
+        "Novum AFP-System",
+        "PAVATEX Holzfaserd\u00e4mmstoffe im Trockenverfahren 110-200 kg/m\u00b3",
+        "GIPSPLATTE - LOCHPLATTE / Tool",
+        "PIPELANE Rohrschalen aus Glaswolle, phenolharzgebunden +A1",
+        "PIPELANE Rohrschalen aus Glaswolle, phenolharzgebunden +A1",
+        "PIPELANE Rohrschalen aus Glaswolle, phenolharzgebunden +A2",
+        "PIPELANE Rohrschalen aus Glaswolle, phenolharzgebunden +A2",
+        "GIPSPLATTE NACH DIN EN 520 UND DIN 18180 / Tool",
+        "PU-D\u00e4mmplatten aus Blockschaumstoff",
+        "PU-D\u00e4mmplatten mit 50 \u00b5m Aluminium-Deckschicht",
+        "PU-D\u00e4mmplatten mit Mineralvlies-Deckschicht",
+        "PU-D\u00e4mmplatten mit Aluminium-Mehrlagen-Deckschicht",
+        "Parthos Raumtrennsystem",
+        "Spanplatte, roh",
+        "Podeste",
+        "PerfectSense Lackplatten",
+        "Phonotherm",
+        "Kunststofffenster mit 2-Scheiben-Isolierglas",
+        "Sperrholz aus Laubholzfurnier",
+        "Polyester - Pulverlack",
+        "Polymermodifizierte Bitumendickbeschichtungen",
+        "Massivw\u00e4nde",
+        "Durchstanz- und Schubbewehrungssysteme",
+        "Putzm\u00f6rtel-Armierungsputz",
+        "Putzm\u00f6rtel-Leichtputz",
+        "Putzm\u00f6rtel-Normalputz/Edelputz",
+        "Putzm\u00f6rtel-Normalputz/Edelputz mit besonderen Eigenschaften",
+        "Putzm\u00f6rtel-W\u00e4rmed\u00e4mmputz",
+        "QBOARD\u00ae",
+        "QXT-H200-REI120",
+        "RESITRIX\u00ae MB und CL",
+        "RESITRIX\u00ae MB und CL",
+        "RESITRIX\u00ae SK W Full Bond, RESITRIX\u00ae SW und RESITRIX\u00ae SK Partial Bond",
+        "RESITRIX\u00ae SK W Full Bond, RESITRIX\u00ae SW und RESITRIX\u00ae SK Partial Bond",
+        "ROCKWOOL Steinwolle-D\u00e4mmstoff im hohen Rohdichtebereich",
+        "ROCKWOOL Steinwolle-D\u00e4mmstoff im niedrigen Rohdichtebereich",
+        "ROCKWOOL Steinwolle-D\u00e4mmstoff im mittleren Rohdichtebereich",
+        "Raffstore",
+        "Doppelbodensystem Typ LIGNA",
+        "Doppelbodensystem Typ NORTEC",
+        "Rohe und beschichtete MDF und HDF Holzfaserplatten",
+        "Betonstahl in Ringen und Betonstabstahl",
+        "Elastische Bodenbel\u00e4ge",
+        "Rhenofol CV, Rhenofol CG",
+        "Rhepanol fk",
+        "Rhepanol hg",
+        "Walzplattiertes Grobblech",
+        "Rollladen",
+        "Dachplatte / Dachschiefer \"Eternit\"",
+        "Dachbahn Vaeplan",
+        "Dachziegel (inklusive Zubeh\u00f6r)",
+        "Dachziegel (inklusive Zubeh\u00f6r)",
+        "SAGLAN Glaswolle, mit bio-basiertem Bindemittel +A1",
+        "SAGLAN Glaswolle, mit bio-basiertem Bindemittel +A1",
+        "SAGLAN Glaswolle, mit bio-basiertem Bindemittel +A2",
+        "SAGLAN Glaswolle, mit bio-basiertem Bindemittel +A2",
+        "SAGLAN Glaswolle, phenolharzgebunden +A1",
+        "SAGLAN Glaswolle, phenolharzgebunden +A1",
+        "SAGLAN Glaswolle, phenolharzgebunden +A2",
+        "SAGLAN Glaswolle, phenolharzgebunden +A2",
+        "SCH\u00dcCO ADS 75.SI",
+        "SCH\u00dcCO ADS 80 FR 60",
+        "SCH\u00dcCO AWS 75.SI+",
+        "STEICO Holzfaserd\u00e4mmplatten aus dem Nassverfahren",
+        "STEICO Holzfaserd\u00e4mmplatten aus dem Trockenverfahren",
+        "STEICO LVL",
+        "STEICO joist/wall Stegtr\u00e4ger",
+        "STEICOflex",
+        "STEICOflex F",
+        "SWISS KRONO Spanplatten - beschichtet",
+        "SWISS KRONO Spanplatten - roh",
+        "SWISS KRONO OSB",
+        "Kalksandstein",
+        "Sandwichwand",
+        "Sarnafil AT",
+        "Sarnafil TG 66",
+        "Sarnafil TG 76 Felt PS",
+        "Sarnafil TS 77",
+        "Sarnafil TS 77-E",
+        "Scheucher Mehrschichtparkett",
+        "Schilliger-Leimholz nach EN 14080:2013",
+        "Sch\u00f6ck Isokorb\u00ae (X)T Typ Q",
+        "Nahtlosrohr der voestalpine Tubulars GmbH & Co KG",
+        "SikaRoof AT",
+        "Sikaplan G",
+        "Sikaplan SGmA",
+        "Sikaplan U",
+        "Silikonharzputz",
+        "Schiebel\u00e4den aus Holz",
+        "Massivdecken",
+        "Fassadenmarkisen Solozip",
+        "Spannbeton-Fertigteildecken",
+        "Speed Sleeve",
+        "Treppen",
+        "Betonstahlmatten und Gittertr\u00e4ger",
+        "StoVentec Glass",
+        "StoVentec R",
+        "Baust\u00e4hle: Offene Walzprofile und Grobbleche",
+        "Konstruktionsvollholz & GLT\u00ae \u2013 Gepr\u00fcfte Leimholz Tr\u00e4ger",
+        "Styrodur\u00ae",
+        "PVC-P Kunststoff-Dachbahnen LOGICROOF",
+        "TECU Bronze",
+        "TECU Classic",
+        "TECU Gold",
+        "TECU Oxid",
+        "TECU Patina",
+        "TECU Premium",
+        "TERRART Fassadenplatte",
+        "THERMATEX Acoustic",
+        "THERMATEX Basic & Standard",
+        "TPO/FPO Dach-und Dichtungsbahn",
+        "Tectofin RG",
+        "Tectofin RV plus, Tectofin SK",
+        "Textiler Bodenbelag - Kugelgarn\u00ae-Kollektionen",
+        "Textilscreens",
+        "Thermofloc",
+        "Getuftete Teppichmodule - liftBAC\u00ae, Polmaterial max. 1900 g/m\u00b2 PA 6.6",
+        "Getuftete Teppichmodule - liftBAC\u00ae, Polmaterial max. 2100 g/m\u00b2 PA 6",
+        "Getufteter Teppichboden, Polmaterial PA 6, Poleinsatzgewicht max. 1400 g/m\u00b2, textiler Geweber\u00fccken",
+        "VARIFLEX 88/100 Raumtrennsystem",
+        "VARITRANS Raumtrennsystem",
+        "VOTEC PP Geotextil Vlies",
+        "Vacupor\u00ae NT-B2-S",
+        "WPC Fassadenelemente",
+        "WPC Terrassendielen",
+        "Wakaflex von Braas",
+        "Wedi Fundo",
+        "Fenster (1,23 x 1,48 m) mit 3-Scheiben-Isolierverglasung",
+        "Fenstergriffe",
+        "Wolfin GWSK",
+        "Wolfin IB",
+        "Wolfin M",
+        "Holzfaserd\u00e4mmplatten",
+        "WrapTec",
+        "XPS mit halogenfreien Treibmitteln",
+        "XT Typ K-M6-V1-REI120-CV35-H200-6.0",
+        "Ytong\u00ae - Porenbeton",
+        "Ytong\u00ae-Porenbeton",
+        "binderholz Brettschichtholz BSH",
+        "binderholz Brettsperrholz BBS",
+        "binderholz Massivholzplatte",
+        "KVH",
+        "designed acoustic ceiling 24 mm",
+        "BSH",
+        "Gipsfaserplatte nach DIN EN 15283-2 oder ETA/Tool",
+        "BalSH",
+        "noracare\u00ae",
+        "norament\u00ae 926",
+        "norament\u00ae 928 ed",
+        "noraplan\u00ae 913",
+        "noraplan\u00ae acoustic",
+        "noraplan\u00ae ed",
+        "noraplan\u00ae ultra grip",
+        "noraplan\u00ae uni",
+        "ROMA-Schnellbau-D\u00e4mmpaneel mit einem Kern aus Mineralwolle",
+        "ROMA-Schnellbau-D\u00e4mmpaneel mit einem Kern aus Polyurethan",
+        "voestalpine Schienen",
+        "Elementw\u00e4nde",
+        "wedi Bauplatte"
     ],
     "functional_unit_list": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         "no value",
         "no value",
-        "no value"
+        "no value",
+        "no value",
+        "no value",
+        "no value",
+        "no value",
+        "no value",
+        "no value",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "no value",
+        "no value",
+        "no value",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
     ],
     "GWP_list": [
         [
@@ -33,6 +767,2942 @@
             0,
             0,
             0
+        ],
+        [
+            10.1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            7.974,
+            0.0513,
+            0.0,
+            0,
+            0,
+            0.0803
+        ],
+        [
+            4.98,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            4.82,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            5.28,
+            0,
+            0,
+            0,
+            0,
+            0.23
+        ],
+        [
+            3.4099999999999997,
+            0,
+            0,
+            0,
+            0,
+            0.13
+        ],
+        [
+            -7.68228227872736,
+            0,
+            0,
+            0,
+            0,
+            12.5537277746585
+        ],
+        [
+            1.89593699542092,
+            0,
+            0,
+            0,
+            0,
+            0.00247
+        ],
+        [
+            3.2058,
+            0,
+            0,
+            0,
+            0,
+            0.00233
+        ],
+        [
+            1.03,
+            0,
+            0,
+            0,
+            0,
+            0.00242
+        ],
+        [
+            157.457714224993,
+            0.945129742847795,
+            6.38143005963117,
+            0,
+            0.0,
+            0.433871885438354
+        ],
+        [
+            10.68,
+            0,
+            0,
+            0,
+            0,
+            0.002322
+        ],
+        [
+            8.589,
+            0,
+            0,
+            0,
+            0,
+            0.002322
+        ],
+        [
+            8.46,
+            0,
+            0,
+            0,
+            0,
+            0.002322
+        ],
+        [
+            1.93153238620983,
+            0,
+            0,
+            0,
+            0,
+            0.00241918382472411
+        ],
+        [
+            43.4,
+            0.23604829111236,
+            0.484,
+            0.0,
+            0,
+            0.542914926937108
+        ],
+        [
+            91.3,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            204.0,
+            0,
+            0,
+            0,
+            0,
+            14.2
+        ],
+        [
+            178.0,
+            3.9,
+            1.08,
+            0,
+            0,
+            6.01
+        ],
+        [
+            197.0,
+            3.9,
+            1.08,
+            0,
+            0,
+            6.01
+        ],
+        [
+            219.0,
+            4.5,
+            1.08,
+            0,
+            0,
+            6.01
+        ],
+        [
+            244.0,
+            9.1,
+            1.08,
+            0,
+            0,
+            6.01
+        ],
+        [
+            286.0,
+            29.1,
+            1.08,
+            0,
+            0,
+            6.01
+        ],
+        [
+            300.0,
+            28.8,
+            1.08,
+            0,
+            0,
+            6.01
+        ],
+        [
+            21.8,
+            1.5,
+            0,
+            0,
+            0,
+            0.6325000000000001
+        ],
+        [
+            18.489,
+            1.51,
+            0,
+            0,
+            0,
+            0.609
+        ],
+        [
+            25.475693392160622,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            23.231,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            255.88245168674675,
+            20.2914881265333,
+            4.31368688683182,
+            0.0,
+            0,
+            16.0674783713288
+        ],
+        [
+            146.0,
+            4.17,
+            1.88,
+            0,
+            0,
+            -9.187999999999999
+        ],
+        [
+            146.0,
+            4.15,
+            0.824,
+            0,
+            0,
+            -9.6
+        ],
+        [
+            113.0,
+            4.15,
+            0.824,
+            0,
+            0,
+            -9.6
+        ],
+        [
+            113.0,
+            3.96,
+            1.88,
+            0,
+            0,
+            -9.6
+        ],
+        [
+            4.4345999033,
+            0,
+            0,
+            0,
+            0,
+            0.00024222889
+        ],
+        [
+            3.71219,
+            0.0267871,
+            0.694583,
+            0,
+            0,
+            2.59718801
+        ],
+        [
+            619.676,
+            0,
+            0.16129,
+            0,
+            0,
+            7.322781
+        ],
+        [
+            4.98067,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            4.71762,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            -21.0775289347562,
+            6.86867718065743,
+            0.0,
+            0,
+            0,
+            2.93280326809283
+        ],
+        [
+            0.555,
+            0,
+            0.299,
+            0,
+            0,
+            0.0
+        ],
+        [
+            10.3965277185263,
+            0,
+            1.8,
+            0,
+            0,
+            0.0880845423986453
+        ],
+        [
+            15.0,
+            0,
+            0.694,
+            0,
+            0,
+            0.168
+        ],
+        [
+            -1.321911904833076,
+            0,
+            0.176509701406454,
+            0,
+            0,
+            1.55836555446661
+        ],
+        [
+            3.2801335215372,
+            0,
+            0,
+            0,
+            0,
+            0.00064626667852
+        ],
+        [
+            8.12813356272935,
+            0,
+            0,
+            0,
+            0,
+            8.4023306253819
+        ],
+        [
+            274.15,
+            6.05,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            2.22,
+            0,
+            0.0257006,
+            0,
+            0,
+            0.0557
+        ],
+        [
+            26.3,
+            0,
+            0.243,
+            0,
+            0,
+            0.468
+        ],
+        [
+            22.0,
+            0,
+            0.248,
+            0,
+            0,
+            0.468
+        ],
+        [
+            42.0,
+            0,
+            0,
+            0,
+            0,
+            0.267
+        ],
+        [
+            43.6132408141969,
+            0,
+            0,
+            0,
+            0,
+            0.261808245209882
+        ],
+        [
+            244.0,
+            0,
+            0,
+            0,
+            0,
+            13.5
+        ],
+        [
+            1010.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            5.1184,
+            0,
+            0,
+            0,
+            0,
+            4.93
+        ],
+        [
+            -622.724598340481,
+            7.21858224746885,
+            1.57772440859254,
+            0,
+            0,
+            700.295425803085
+        ],
+        [
+            1.80653595010098,
+            0.229413014317914,
+            0.00202240644999119,
+            0,
+            0,
+            3.07160850338638
+        ],
+        [
+            209.0,
+            13.1,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            292.9370183502967,
+            20.2914881265333,
+            1.79503882785117,
+            0.0,
+            0,
+            16.0674783713288
+        ],
+        [
+            297.3,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0.7708,
+            0.2405,
+            0.03017,
+            0,
+            0,
+            0
+        ],
+        [
+            3.425,
+            0.2405,
+            0.03017,
+            0,
+            0,
+            0
+        ],
+        [
+            0.793044272587144,
+            0.19587377663051,
+            0.0289304316001358,
+            0,
+            0,
+            0.0127190709267198
+        ],
+        [
+            0.883520355456802,
+            0.19587377663051,
+            0.0289304316001358,
+            0,
+            0,
+            0.01162503732448
+        ],
+        [
+            2.93,
+            0.0344,
+            0.162,
+            0,
+            0,
+            0.121
+        ],
+        [
+            7.02640065555607,
+            0.218804312745975,
+            0.0010112032249956,
+            0,
+            0,
+            7.482192897119081
+        ],
+        [
+            0.832678286580309,
+            0,
+            0,
+            0,
+            0,
+            8.6734054443063
+        ],
+        [
+            -583.691306059584,
+            0,
+            0,
+            0,
+            0,
+            998.33830184975
+        ],
+        [
+            2.51912683015527,
+            0,
+            0,
+            0,
+            0,
+            8.0277282472504
+        ],
+        [
+            -11.0819258975476,
+            0,
+            0,
+            0,
+            0,
+            19.6225568153671
+        ],
+        [
+            -13.7667220704884,
+            0,
+            0,
+            0,
+            0,
+            17.9051085881758
+        ],
+        [
+            2.02609393832067,
+            0,
+            0,
+            0,
+            0,
+            1.38765408593121
+        ],
+        [
+            2.70076998135965,
+            0,
+            0,
+            0,
+            0,
+            1.51581233916827
+        ],
+        [
+            -6.01,
+            0,
+            0,
+            0,
+            0,
+            10.2
+        ],
+        [
+            0.725610752099444,
+            0,
+            0,
+            0,
+            0,
+            0.344438588522056
+        ],
+        [
+            -753.0,
+            0,
+            0,
+            0,
+            0,
+            967.0
+        ],
+        [
+            -696.478632966524,
+            0,
+            0,
+            0,
+            0,
+            805.848085260803
+        ],
+        [
+            4.79686,
+            0.0352844,
+            0.689229,
+            0,
+            0,
+            3.211254
+        ],
+        [
+            4.79,
+            0.0352,
+            0.69,
+            0,
+            0,
+            3.1706000000000003
+        ],
+        [
+            8.61,
+            0.0331,
+            0.625,
+            0,
+            0,
+            6.085
+        ],
+        [
+            9.78750514,
+            1.576828,
+            1.3728283,
+            0.0,
+            0.0,
+            0.079601718
+        ],
+        [
+            16.31622174,
+            0.73029939,
+            1.9465051,
+            0.0,
+            0.0,
+            0.096832625
+        ],
+        [
+            6.76,
+            0.0337,
+            0.559,
+            0,
+            0,
+            4.4350000000000005
+        ],
+        [
+            6.47,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0.12,
+            0.00851,
+            0.00158,
+            0,
+            0,
+            0.0161
+        ],
+        [
+            0.162,
+            0.00851,
+            0.00169,
+            0,
+            0,
+            0.0166
+        ],
+        [
+            1160.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            45.378,
+            0,
+            0.588,
+            0,
+            0,
+            50.3
+        ],
+        [
+            46.99,
+            0,
+            0.591,
+            0,
+            0,
+            50.4
+        ],
+        [
+            57.7,
+            0,
+            0.388,
+            0,
+            0,
+            67.1
+        ],
+        [
+            59.806,
+            0,
+            0.39,
+            0,
+            0,
+            67.2
+        ],
+        [
+            77.448,
+            0,
+            0.501,
+            0,
+            0,
+            84.0
+        ],
+        [
+            74.729,
+            0,
+            0.498,
+            0,
+            0,
+            83.9
+        ],
+        [
+            87.74,
+            0,
+            0.571,
+            0,
+            0,
+            101.0
+        ],
+        [
+            84.52,
+            0,
+            0.569,
+            0,
+            0,
+            101.0
+        ],
+        [
+            56.699,
+            0,
+            0.377,
+            0,
+            0,
+            50.3
+        ],
+        [
+            58.61,
+            0,
+            0.379,
+            0,
+            0,
+            50.4
+        ],
+        [
+            74.011,
+            0,
+            0.422,
+            0,
+            0,
+            70.3
+        ],
+        [
+            76.727,
+            0,
+            0.424,
+            0,
+            0,
+            70.3
+        ],
+        [
+            85.9739566917342,
+            0.30560711205249,
+            0.136578839949315,
+            0,
+            32.4059408986377,
+            0.821326234900295
+        ],
+        [
+            1.16959676679026,
+            0.115680993791439,
+            0.0010112032249956,
+            0,
+            0,
+            1.414459864693716
+        ],
+        [
+            13.2,
+            1.26,
+            1.26,
+            0,
+            0,
+            0
+        ],
+        [
+            255.549,
+            12.5,
+            9.28,
+            0.0,
+            0.0,
+            18.73
+        ],
+        [
+            2.84,
+            0,
+            0.0249,
+            0,
+            0,
+            0.04862
+        ],
+        [
+            2.118,
+            0.2405,
+            0.03017,
+            0,
+            0,
+            0
+        ],
+        [
+            10.58,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            10.71,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            819.1969696969699,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            970.9000000000001,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            4.39,
+            0.0038,
+            0.0042,
+            0,
+            0,
+            0.00467
+        ],
+        [
+            186.0,
+            0,
+            0,
+            0,
+            0,
+            13.8
+        ],
+        [
+            25.443354465981,
+            0,
+            0,
+            0,
+            0,
+            0.421537978634219
+        ],
+        [
+            87.3,
+            4.68,
+            1.99,
+            0,
+            0,
+            0.662
+        ],
+        [
+            -37.8807977449706,
+            0,
+            10.0154504623802,
+            0,
+            0,
+            80.6626641392188
+        ],
+        [
+            0.144,
+            0.013,
+            0.00012,
+            0,
+            0,
+            0.015
+        ],
+        [
+            0.39326,
+            0,
+            0,
+            0,
+            0,
+            0.013024
+        ],
+        [
+            19.82,
+            0.1112,
+            2.312,
+            0,
+            0,
+            5.443019999999999
+        ],
+        [
+            21.26,
+            0.1242,
+            2.51,
+            0,
+            0,
+            6.20089
+        ],
+        [
+            22.75,
+            0.1112,
+            2.572,
+            0,
+            0,
+            5.443019999999999
+        ],
+        [
+            23.93,
+            0.1222,
+            2.736,
+            0,
+            0,
+            6.08298
+        ],
+        [
+            21.72,
+            0.1023,
+            2.436,
+            0,
+            0,
+            4.97187
+        ],
+        [
+            23.22,
+            0.1397,
+            2.895,
+            0,
+            0,
+            10.46593
+        ],
+        [
+            24.4,
+            0.1506,
+            3.058,
+            0,
+            0,
+            11.10659
+        ],
+        [
+            22.19,
+            0.1307,
+            2.76,
+            0,
+            0,
+            9.994580000000001
+        ],
+        [
+            11.2,
+            0.0352,
+            1.2,
+            0,
+            0,
+            4.140000000000001
+        ],
+        [
+            12.8,
+            0.0391,
+            1.3,
+            0,
+            0,
+            4.6
+        ],
+        [
+            9.75,
+            0.0383,
+            1.1,
+            0,
+            0,
+            4.38
+        ],
+        [
+            9.74,
+            0.0383,
+            1.1,
+            0,
+            0,
+            4.38
+        ],
+        [
+            9.48,
+            0.0383,
+            1.94,
+            0,
+            0,
+            5.7299999999999995
+        ],
+        [
+            14.8,
+            0.0538,
+            1.8,
+            0,
+            0,
+            3.83
+        ],
+        [
+            14.55,
+            0.0656,
+            2.0,
+            0,
+            0,
+            7.49
+        ],
+        [
+            723.9,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0.5129,
+            0.000988,
+            0.018,
+            0,
+            0,
+            0
+        ],
+        [
+            -608.414726529582,
+            0,
+            0,
+            0,
+            0,
+            753.424631563166
+        ],
+        [
+            187.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            30.4,
+            0,
+            0,
+            0,
+            0,
+            0.131
+        ],
+        [
+            4.46,
+            0,
+            0,
+            0,
+            0,
+            0.0
+        ],
+        [
+            -660.122358965634,
+            0,
+            0,
+            0,
+            0,
+            753.424631563166
+        ],
+        [
+            307.029,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            1.813019,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0.809866183027281,
+            0.19587377663051,
+            0.0289304316001358,
+            0,
+            0,
+            0.00966768468918022
+        ],
+        [
+            0.56511352686562,
+            0.19587377663051,
+            0.0289304316001358,
+            0,
+            0,
+            0.00683212820990565
+        ],
+        [
+            2.79461191214072,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            59.13556012,
+            0.719923544,
+            0.352710794,
+            0,
+            0,
+            0.549310509
+        ],
+        [
+            2280.0,
+            0,
+            0,
+            0,
+            0,
+            0.0
+        ],
+        [
+            2127.62229188738,
+            0,
+            0,
+            0,
+            0,
+            0.802816055860783
+        ],
+        [
+            -898.5505429593436,
+            0,
+            30.2975184644412,
+            0,
+            0,
+            1281.29504294923
+        ],
+        [
+            -0.3978325787940884,
+            0,
+            0.0462231453635419,
+            0,
+            0,
+            1.46061666666667
+        ],
+        [
+            19.9,
+            0,
+            0,
+            0,
+            0,
+            0.0216
+        ],
+        [
+            4889.41943703268,
+            0,
+            0,
+            0,
+            0,
+            2.41918382472411
+        ],
+        [
+            2169.60007405024,
+            0,
+            0,
+            0,
+            0,
+            2.41918382472411
+        ],
+        [
+            5.07,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            1.301,
+            0.126,
+            0.00101,
+            0,
+            0,
+            1.415
+        ],
+        [
+            1.624,
+            0.2405,
+            0.03017,
+            0,
+            0,
+            0
+        ],
+        [
+            1.409,
+            0.2405,
+            0.03017,
+            0,
+            0,
+            0
+        ],
+        [
+            1.34,
+            0.2405,
+            0.03017,
+            0,
+            0,
+            0
+        ],
+        [
+            47.59,
+            0.82,
+            1.62,
+            0,
+            0,
+            49.98
+        ],
+        [
+            -18.955692119480975,
+            0,
+            10.6359280544034,
+            0,
+            0,
+            101.64867551720637
+        ],
+        [
+            4.0155,
+            0.133,
+            1.01,
+            0,
+            0,
+            2.3966
+        ],
+        [
+            59.9024961504163,
+            4.7344946981116,
+            0,
+            0,
+            0,
+            16.13594518249
+        ],
+        [
+            122.778583812827,
+            4.73449469811159,
+            0,
+            0,
+            0,
+            16.1359451824901
+        ],
+        [
+            -601.291,
+            70.383945,
+            20.686275,
+            0,
+            0.0,
+            808.386344
+        ],
+        [
+            21.1,
+            0,
+            0,
+            0,
+            0,
+            0.12
+        ],
+        [
+            41.6979884466436,
+            0,
+            2.24397996529826,
+            0,
+            0,
+            0.650247370307615
+        ],
+        [
+            1.4051190063437,
+            0.19587377663051,
+            0.0289304316001358,
+            0,
+            0,
+            0.0122650841938176
+        ],
+        [
+            7.70551914239538,
+            0,
+            0,
+            0,
+            0,
+            7.56205206086359
+        ],
+        [
+            8.12813356272935,
+            0,
+            0,
+            0,
+            0,
+            8.4023306253819
+        ],
+        [
+            277.614492069733,
+            3.1,
+            10.8777546674676,
+            0,
+            0,
+            113.766973210612
+        ],
+        [
+            0.1584,
+            0.0125,
+            9.31e-05,
+            0,
+            0,
+            0.0152
+        ],
+        [
+            -5.2721,
+            0.34921,
+            0.16948,
+            0,
+            0,
+            13.496
+        ],
+        [
+            40.7117866388149,
+            0.166616331942304,
+            0.136578839949315,
+            0,
+            32.4059408986377,
+            1.0315658565469
+        ],
+        [
+            1070.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            1280.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            1580.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            -8.744,
+            0,
+            1.163,
+            0,
+            0,
+            34.04
+        ],
+        [
+            -9.094,
+            0,
+            0.4916,
+            0,
+            0,
+            37.239999999999995
+        ],
+        [
+            -1.23155304182318,
+            0.0576856755923955,
+            0.0429300153612316,
+            0,
+            0,
+            1.45263014966563
+        ],
+        [
+            20.9,
+            0,
+            0,
+            0,
+            0,
+            18.9
+        ],
+        [
+            1.49,
+            0.00586,
+            0.0537,
+            0,
+            0,
+            0.00169
+        ],
+        [
+            79.013,
+            1.2748,
+            14.915,
+            0,
+            56.243,
+            47.864
+        ],
+        [
+            18.6299245942174,
+            1.56488236826689,
+            0.0,
+            0,
+            0,
+            103.2049909923675
+        ],
+        [
+            0.489,
+            0.022,
+            0.0615,
+            0,
+            0,
+            0.0191
+        ],
+        [
+            0.572,
+            0.00735,
+            0.032,
+            0,
+            0,
+            0.0186
+        ],
+        [
+            0.0728,
+            0.00403,
+            0.0318,
+            0,
+            0,
+            0.0166
+        ],
+        [
+            0.226,
+            0.00734,
+            0.0594,
+            0,
+            0,
+            0.0175
+        ],
+        [
+            63.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            69.6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            118.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            108.0,
+            2.51,
+            2.01,
+            0,
+            0,
+            38.756
+        ],
+        [
+            -764.808330163426,
+            0,
+            30.2978255352162,
+            0,
+            0,
+            1032.57317682926
+        ],
+        [
+            26.7,
+            0.268,
+            0.0383,
+            0,
+            0,
+            1.8
+        ],
+        [
+            8.6344,
+            0.00745,
+            0.108,
+            0.0,
+            0,
+            0.0404
+        ],
+        [
+            2.79207,
+            0.00764,
+            0.141,
+            0.0,
+            0,
+            0.00781
+        ],
+        [
+            4.1645,
+            0.00712,
+            0.0467,
+            0.0,
+            0,
+            0.00174
+        ],
+        [
+            28.7577,
+            0.175943,
+            1.31867,
+            0,
+            0,
+            2.54275
+        ],
+        [
+            34.2967,
+            0.234117,
+            1.96,
+            0,
+            0,
+            3.3266
+        ],
+        [
+            27.6848,
+            0.202035,
+            1.0013,
+            0,
+            0,
+            2.18185
+        ],
+        [
+            29.9987,
+            0.177483,
+            1.0013,
+            0,
+            0,
+            1.889
+        ],
+        [
+            4.091,
+            0.02766,
+            0.1755,
+            0,
+            0,
+            0
+        ],
+        [
+            4.389,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0.9109,
+            0.02766,
+            0.1755,
+            0,
+            0,
+            0
+        ],
+        [
+            2010.0,
+            0,
+            17.8,
+            0,
+            0,
+            16.1
+        ],
+        [
+            173.429388198793,
+            3.23993814974041,
+            22.1399539655162,
+            0,
+            0,
+            3.78908614746535
+        ],
+        [
+            33.5775578141675,
+            0.511569181537959,
+            4.56570866213916,
+            0,
+            0,
+            1.50787676012611
+        ],
+        [
+            117.431104771729,
+            2.13153825640816,
+            18.4290063857459,
+            0,
+            0,
+            2.15281983385878
+        ],
+        [
+            4.48,
+            0,
+            0,
+            0.0,
+            0,
+            0
+        ],
+        [
+            -4.404,
+            0.3484,
+            0.1636,
+            0,
+            0,
+            9.783
+        ],
+        [
+            -5.992,
+            0,
+            0.3985,
+            0,
+            0,
+            25.33
+        ],
+        [
+            -10.35,
+            0.33851,
+            0.30125,
+            0,
+            0,
+            11.714
+        ],
+        [
+            63.4052,
+            0.323868,
+            0.964632,
+            0,
+            0.335258,
+            2.59308
+        ],
+        [
+            -253.44906815637,
+            7.25122945993817,
+            10.4201308649621,
+            0,
+            0,
+            322.4
+        ],
+        [
+            1.08203378046047,
+            0.0966206639611398,
+            0.00101120322499559,
+            0,
+            0,
+            1.200660884989659
+        ],
+        [
+            1.88152193575681,
+            0.0367597812812779,
+            0.202346135708966,
+            0,
+            0,
+            0.00711624633743247
+        ],
+        [
+            2.15561391153722,
+            0.0367597812812779,
+            0.202346135708966,
+            0,
+            0,
+            0.00711624633743247
+        ],
+        [
+            2.12213148175305,
+            0.0372628646655088,
+            0.342783280704387,
+            0,
+            0,
+            0.00727657303219126
+        ],
+        [
+            1.8451233308776,
+            0.0372628646655088,
+            0.342783280704387,
+            0,
+            0,
+            0.00727657303219126
+        ],
+        [
+            1.0138704404845,
+            0.115680993791439,
+            0.0010112032249956,
+            0,
+            0,
+            1.414459864693716
+        ],
+        [
+            14.8,
+            0.289,
+            0.54,
+            0,
+            0,
+            8.842
+        ],
+        [
+            13.8,
+            0.438,
+            0.362,
+            0,
+            0,
+            8.661
+        ],
+        [
+            11.6,
+            0.465,
+            0.392,
+            0,
+            0,
+            9.2968
+        ],
+        [
+            11.2,
+            0.425,
+            0.362,
+            0,
+            0,
+            8.7786
+        ],
+        [
+            115.313,
+            2.82573,
+            1.76937,
+            0,
+            9.06707,
+            101.899959
+        ],
+        [
+            -816.4016134799014,
+            0,
+            4.81073737138473,
+            0,
+            0,
+            996.89872775803
+        ],
+        [
+            244.0,
+            0,
+            0,
+            0,
+            0,
+            13.9
+        ],
+        [
+            -10.2090141457808,
+            0,
+            0,
+            0,
+            0,
+            19.4258852453034
+        ],
+        [
+            620.054630259581,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            80.0318611294221,
+            0.397451109646232,
+            1.47857613711272,
+            0,
+            0,
+            5.81487585146121
+        ],
+        [
+            -906.5041414037004,
+            0,
+            13.9926038680959,
+            0,
+            0,
+            1258.58318866951
+        ],
+        [
+            4.67,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            1.111,
+            0.02586,
+            0.278,
+            0,
+            0,
+            0
+        ],
+        [
+            220.0,
+            0,
+            0,
+            0,
+            0,
+            14.1
+        ],
+        [
+            2.9599600813956,
+            0,
+            0,
+            0,
+            0,
+            0.00093306568428
+        ],
+        [
+            0.433,
+            0.0219,
+            0.0477,
+            0,
+            0,
+            0.0179
+        ],
+        [
+            0.341,
+            0.00582,
+            0.0417,
+            0,
+            0,
+            0.0172
+        ],
+        [
+            0.208,
+            0.0218,
+            0.0417,
+            0,
+            0,
+            0.0166
+        ],
+        [
+            0.374,
+            0.0218,
+            0.0417,
+            0,
+            0,
+            0.0169
+        ],
+        [
+            0.943,
+            0.0219,
+            0.0482,
+            0,
+            0,
+            0.0199
+        ],
+        [
+            4.0155,
+            0.133,
+            1.01,
+            0,
+            0,
+            2.3966
+        ],
+        [
+            7.09,
+            0,
+            0,
+            0,
+            0,
+            0.0763
+        ],
+        [
+            8.23,
+            0,
+            0,
+            0,
+            0,
+            6.48
+        ],
+        [
+            7.99,
+            0,
+            0,
+            0,
+            0,
+            6.47
+        ],
+        [
+            8.2547,
+            0,
+            0,
+            0,
+            0,
+            5.09
+        ],
+        [
+            8.1,
+            0,
+            0,
+            0,
+            0,
+            5.08
+        ],
+        [
+            196.64,
+            3.16,
+            16.49,
+            0,
+            0,
+            2.46
+        ],
+        [
+            49.48,
+            0.8,
+            4.15,
+            0,
+            0,
+            0.62
+        ],
+        [
+            121.79,
+            1.96,
+            10.21,
+            0,
+            0,
+            1.52
+        ],
+        [
+            75.1,
+            0,
+            3.92,
+            0,
+            2.88,
+            0.711
+        ],
+        [
+            -28.372865532456,
+            0.63,
+            0.04998936,
+            0.0,
+            0,
+            43.47
+        ],
+        [
+            12.6,
+            1.63,
+            0.203,
+            0,
+            0,
+            12.0
+        ],
+        [
+            -710.0,
+            0,
+            0,
+            0,
+            0,
+            1340.0
+        ],
+        [
+            473.984349693345,
+            0,
+            0,
+            0,
+            0,
+            0.736299917823919
+        ],
+        [
+            -4.3791,
+            0.35069,
+            0.16138,
+            0,
+            0,
+            11.882
+        ],
+        [
+            7.03,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            6.08,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            6.04,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            3140.48998673661,
+            0,
+            0,
+            0,
+            0,
+            0.802816055860783
+        ],
+        [
+            68.1,
+            0,
+            3.92,
+            0,
+            1.44,
+            4.05
+        ],
+        [
+            1070.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            5.25,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            12.221,
+            0.773,
+            0.261,
+            0,
+            0,
+            0.1315
+        ],
+        [
+            12.329,
+            0.787,
+            0.261,
+            0,
+            0,
+            0.14100000000000001
+        ],
+        [
+            1.07583506861864,
+            0.023742097267908,
+            0.318479386751816,
+            0,
+            0,
+            0.00711624633743247
+        ],
+        [
+            0.950534225836955,
+            0.023742097267908,
+            0.318479386751816,
+            0,
+            0,
+            0.00711624633743247
+        ],
+        [
+            0.952006266587697,
+            0.0240670245179066,
+            0.454674166430043,
+            0,
+            0,
+            0.00727657303219126
+        ],
+        [
+            1.0786573466396,
+            0.0240670245179066,
+            0.454674166430043,
+            0,
+            0,
+            0.00727657303219126
+        ],
+        [
+            1.18744390595623,
+            0.023742097267908,
+            0.318479386751816,
+            0,
+            0,
+            0.00711624633743247
+        ],
+        [
+            1.31268953343856,
+            0.023742097267908,
+            0.318479386751816,
+            0,
+            0,
+            0.00711624633743247
+        ],
+        [
+            1.21838708407139,
+            0.0240670245179066,
+            0.454674166430043,
+            0,
+            0,
+            0.00727657303219126
+        ],
+        [
+            1.34496525030678,
+            0.0240670245179066,
+            0.454674166430043,
+            0,
+            0,
+            0.00727657303219126
+        ],
+        [
+            369.6,
+            0.0754,
+            0,
+            0,
+            0.0,
+            13.81
+        ],
+        [
+            629.63,
+            0.113,
+            0,
+            0,
+            0.0,
+            4.42
+        ],
+        [
+            251.65,
+            0.0573,
+            0,
+            0,
+            0.0,
+            16.68
+        ],
+        [
+            -114.3705108957111,
+            0,
+            28.0978515110709,
+            0,
+            0,
+            401.462717972542
+        ],
+        [
+            -80.68307528029915,
+            0,
+            16.9628324568387,
+            0,
+            0,
+            221.92430101919
+        ],
+        [
+            -531.5858022127716,
+            0,
+            18.6123335142362,
+            0,
+            0,
+            885.516276613077
+        ],
+        [
+            -2.8177145417928067,
+            0,
+            0.211869746061768,
+            0,
+            0,
+            7.13324738654538
+        ],
+        [
+            -28.315652059056298,
+            0,
+            12.307058147653,
+            0,
+            0,
+            78.3071854863759
+        ],
+        [
+            -61.15789500668018,
+            0,
+            6.13510423552742,
+            0,
+            0,
+            85.1040232428761
+        ],
+        [
+            -14.4,
+            0,
+            0.135,
+            0,
+            0,
+            19.9
+        ],
+        [
+            -865.0,
+            0,
+            9.07,
+            0,
+            0,
+            1130.0
+        ],
+        [
+            -890.0,
+            0,
+            29.5,
+            0,
+            0,
+            1130.0
+        ],
+        [
+            126.0,
+            3.93,
+            3.04,
+            0,
+            0,
+            16.509999999999998
+        ],
+        [
+            244.0,
+            0,
+            0,
+            0,
+            0,
+            13.8
+        ],
+        [
+            3.44,
+            0.0869,
+            0.474,
+            0,
+            0,
+            6.438
+        ],
+        [
+            3.09,
+            0.0881,
+            0.447,
+            0,
+            0,
+            6.521
+        ],
+        [
+            3.48,
+            0.106,
+            0.505,
+            0,
+            0,
+            7.64
+        ],
+        [
+            3.27,
+            0.106,
+            0.489,
+            0,
+            0,
+            7.952
+        ],
+        [
+            3.72,
+            0.111,
+            0.532,
+            0,
+            0,
+            8.294
+        ],
+        [
+            -6.70671720289862,
+            0,
+            0,
+            0,
+            0,
+            12.1574583459851
+        ],
+        [
+            -615.0,
+            4.12,
+            5.75,
+            0,
+            0,
+            686.0
+        ],
+        [
+            6.99,
+            0,
+            3.2545,
+            0,
+            0,
+            0.33010228
+        ],
+        [
+            3156.96284310733,
+            0,
+            0,
+            0,
+            0,
+            2.41918382472411
+        ],
+        [
+            3.44,
+            0.0869,
+            0.474,
+            0,
+            0,
+            6.438
+        ],
+        [
+            4.62,
+            0.0599,
+            0.622,
+            0,
+            0,
+            5.212
+        ],
+        [
+            4.67,
+            0.0649,
+            0.49,
+            0,
+            0,
+            5.506
+        ],
+        [
+            5.4,
+            0.0463,
+            0.659,
+            0,
+            0,
+            5.474
+        ],
+        [
+            0.843238829738113,
+            0.19587377663051,
+            0.0289304316001358,
+            0,
+            0,
+            0.0124288171138807
+        ],
+        [
+            133.140740779798,
+            1.30825449873785,
+            6.38143005963117,
+            0,
+            0.0,
+            10.7146297616194
+        ],
+        [
+            205.0,
+            0,
+            0,
+            0,
+            0,
+            14.1
+        ],
+        [
+            49.4260666013897,
+            0.684468508149118,
+            2.42619256384993,
+            0,
+            27.963623326987,
+            1.99292377830542
+        ],
+        [
+            64.1,
+            0,
+            0,
+            0,
+            0,
+            1.4049999999999998
+        ],
+        [
+            5.21609,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            191.0,
+            0,
+            0,
+            0,
+            0,
+            14.3
+        ],
+        [
+            544.258398245993,
+            0,
+            0,
+            0,
+            0,
+            0.736299917823919
+        ],
+        [
+            92.8070202477044,
+            0.219612404005114,
+            4.98,
+            0,
+            0,
+            0.381637266686241
+        ],
+        [
+            15.744,
+            0.091,
+            1.86,
+            0,
+            0,
+            0.181
+        ],
+        [
+            1125.0,
+            0,
+            0,
+            0,
+            0,
+            1.844
+        ],
+        [
+            -695.816465886325,
+            0,
+            0,
+            0,
+            0,
+            759.456298229831
+        ],
+        [
+            9.85,
+            0.35,
+            0.27,
+            0,
+            0,
+            13.18
+        ],
+        [
+            4.9337,
+            0.017788,
+            1.2935,
+            0,
+            0,
+            4.8042
+        ],
+        [
+            0.8157,
+            0,
+            0,
+            0,
+            0,
+            0.0
+        ],
+        [
+            0.6184,
+            0,
+            0,
+            0,
+            0,
+            0.0
+        ],
+        [
+            1.5233,
+            0,
+            0,
+            0,
+            0,
+            0.0
+        ],
+        [
+            0.9047,
+            0,
+            0,
+            0,
+            0,
+            0.0
+        ],
+        [
+            0.9575,
+            0,
+            0,
+            0,
+            0,
+            0.000304
+        ],
+        [
+            0.6229,
+            0,
+            0,
+            0,
+            0,
+            0.0
+        ],
+        [
+            90.507,
+            0,
+            0,
+            0,
+            0,
+            1.5186
+        ],
+        [
+            5.08,
+            0,
+            0,
+            0,
+            0,
+            0.603
+        ],
+        [
+            4.49,
+            0,
+            0,
+            0,
+            0,
+            0.559
+        ],
+        [
+            1.6102,
+            0.00921,
+            0.0667,
+            0,
+            0,
+            4.72338
+        ],
+        [
+            8.2907,
+            0,
+            0,
+            0,
+            0,
+            4.93
+        ],
+        [
+            12.3963,
+            0,
+            0,
+            0,
+            0,
+            6.23
+        ],
+        [
+            10.03,
+            0.08805,
+            1.258,
+            0,
+            0,
+            3.40361
+        ],
+        [
+            87.4,
+            0,
+            3.92,
+            0,
+            1.44,
+            1.548
+        ],
+        [
+            -1.33179246221928,
+            0.0518613914046602,
+            -0.0888717835180195,
+            0,
+            0,
+            1.61586476715926
+        ],
+        [
+            31.07,
+            0.1736,
+            1.4,
+            0,
+            0,
+            7.5998399999999995
+        ],
+        [
+            28.7,
+            0.1817,
+            1.347,
+            0,
+            0,
+            8.07237
+        ],
+        [
+            18.7,
+            0.1023,
+            2.165,
+            0,
+            0,
+            4.92087
+        ],
+        [
+            37.173,
+            1.8878,
+            14.915,
+            0,
+            0,
+            61.462
+        ],
+        [
+            69.149,
+            0.95069,
+            15.562,
+            0,
+            0,
+            2.2332
+        ],
+        [
+            0.39326,
+            0,
+            0,
+            0,
+            0,
+            0.013024
+        ],
+        [
+            40.602,
+            0.024,
+            1.662,
+            0,
+            0,
+            1.56756
+        ],
+        [
+            -0.558,
+            0.235,
+            0,
+            0,
+            0,
+            17.56333334
+        ],
+        [
+            0.253,
+            0.55536973,
+            0,
+            0,
+            0,
+            42.1666
+        ],
+        [
+            9.357,
+            0,
+            0,
+            0,
+            0,
+            4.0
+        ],
+        [
+            10.5,
+            0,
+            1.54,
+            0,
+            0,
+            0
+        ],
+        [
+            158.0,
+            1.07,
+            1.96,
+            112.0,
+            0,
+            8.667
+        ],
+        [
+            1.32,
+            0.00701,
+            0.03,
+            0,
+            0,
+            0.0562
+        ],
+        [
+            10.5143,
+            0,
+            0,
+            0,
+            0,
+            6.93
+        ],
+        [
+            8.5729,
+            0,
+            0,
+            0,
+            0,
+            4.93
+        ],
+        [
+            8.82,
+            0,
+            0,
+            0,
+            0,
+            5.55
+        ],
+        [
+            -198.4,
+            0,
+            21.76,
+            0,
+            0,
+            270.0
+        ],
+        [
+            2.972579032005278,
+            0,
+            0,
+            0,
+            0,
+            2.35094602475629
+        ],
+        [
+            9.38,
+            0.234,
+            0,
+            0,
+            0,
+            11.5
+        ],
+        [
+            20.7502097783318,
+            0,
+            1.8,
+            0,
+            0,
+            0.112231421120251
+        ],
+        [
+            167.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            165.875,
+            2.377,
+            3.755,
+            0,
+            0,
+            6.929
+        ],
+        [
+            -639.6522180779027,
+            0,
+            4.42490067445852,
+            0,
+            0,
+            749.482524144716
+        ],
+        [
+            -657.4778259643954,
+            0,
+            4.07777255824853,
+            0,
+            0,
+            766.05880041765
+        ],
+        [
+            -632.2867641962928,
+            0,
+            1.5018604551837,
+            0,
+            0,
+            771.173404144716
+        ],
+        [
+            -671.8357664543016,
+            0,
+            1.28848996278102,
+            0,
+            0,
+            767.401393114068
+        ],
+        [
+            28.0,
+            0.0303,
+            0.14,
+            0,
+            0,
+            7.32
+        ],
+        [
+            -636.598984312652,
+            0,
+            1.2889462225599,
+            0,
+            0,
+            776.346022085486
+        ],
+        [
+            4.02730737515694,
+            0.13790054641414,
+            0.00151680483749339,
+            0,
+            0,
+            4.41319808729018
+        ],
+        [
+            -655.6703598182899,
+            0,
+            1.28900865821401,
+            0,
+            0,
+            784.655732843912
+        ],
+        [
+            4.01,
+            0.194,
+            0.375,
+            0,
+            0,
+            2.61
+        ],
+        [
+            17.2,
+            0.292,
+            1.21,
+            0,
+            0,
+            5.41
+        ],
+        [
+            21.0101541762661,
+            0.265097464128335,
+            1.40351235971138,
+            0,
+            0,
+            5.62025433139991
+        ],
+        [
+            5.87,
+            0.182,
+            0.464,
+            0,
+            0,
+            2.48
+        ],
+        [
+            8.50430849976372,
+            0.217379920585235,
+            0.657622816660681,
+            0,
+            0,
+            3.52834432885165
+        ],
+        [
+            12.1696214700118,
+            0.162924483162206,
+            0.821579671019095,
+            0,
+            0,
+            3.03009273631433
+        ],
+        [
+            9.48293225690573,
+            0.185623453528195,
+            0.677597954600911,
+            0,
+            0,
+            2.96550520910842
+        ],
+        [
+            9.62742813576679,
+            0.188329656807838,
+            0.678850969924941,
+            0,
+            0,
+            2.85454148158629
+        ],
+        [
+            46.9,
+            0,
+            0,
+            0,
+            0,
+            0.199
+        ],
+        [
+            34.9,
+            0,
+            0,
+            0,
+            0,
+            9.68
+        ],
+        [
+            2626.121477803,
+            0,
+            0,
+            0,
+            0,
+            2.42345842745304
+        ],
+        [
+            184.0,
+            0,
+            0,
+            0,
+            0,
+            13.9
+        ],
+        [
+            4.63,
+            0,
+            0.021,
+            0,
+            0,
+            0
         ]
     ],
     "IBU_categories_list": [
@@ -47,6 +3717,1474 @@
         [
             "Innen-, Au\u00dfenwand und Deckenbekleidungen",
             "Faserzement / Faserbeton"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Produkte aus Aluminium und Aluminiumlegierungen"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Produkte aus Aluminium und Aluminiumlegierungen"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Produkte aus Aluminium und Aluminiumlegierungen"
+        ],
+        [
+            "Fassaden",
+            "Sonnenschutzsysteme"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Produkte aus Aluminium und Aluminiumlegierungen"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Produkte aus Aluminium und Aluminiumlegierungen"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Produkte aus Aluminium und Aluminiumlegierungen"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Produkte aus Aluminium und Aluminiumlegierungen"
+        ],
+        [
+            "Fassaden",
+            "Keramische Bekleidung"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonbauteile aus Ort- oder Lieferbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonbauteile aus Ort- oder Lieferbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonbauteile aus Ort- oder Lieferbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonbauteile aus Ort- oder Lieferbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonbauteile aus Ort- oder Lieferbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonbauteile aus Ort- oder Lieferbeton"
+        ],
+        [
+            "Tiefbauprodukte",
+            "Oberbaumaterialien f\u00fcr Verkehrswege im Aussenbereich"
+        ],
+        [
+            "Tiefbauprodukte",
+            "Oberbaumaterialien f\u00fcr Verkehrswege im Aussenbereich"
+        ],
+        [
+            "Tiefbauprodukte",
+            "Oberbaumaterialien f\u00fcr Verkehrswege im Aussenbereich"
+        ],
+        [
+            "Tiefbauprodukte",
+            "Oberbaumaterialien f\u00fcr Verkehrswege im Aussenbereich"
+        ],
+        [
+            "Bedachungen",
+            "Betondachsteine"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Ziegel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Ziegel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Ziegel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Ziegel"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baust\u00e4hle"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Bewehrungsstahl"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Tragende W\u00e4rmed\u00e4mmelemente"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Leichtbauplatten aus Leichtf\u00fcllstoffen und reaktiven Harzen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Einblasd\u00e4mmstoffe aus Zellulose- und Holzfasern"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonbauteile aus Ort- oder Lieferbeton"
+        ],
+        [
+            "Befestigungen",
+            "Bewehrungs- und Befestigungssysteme aus Glasfaserverbundwerkstoffen"
+        ],
+        [
+            "Tiefbauprodukte",
+            "Oberbaumaterialien f\u00fcr Verkehrswege im Aussenbereich"
+        ],
+        [
+            "Tiefbauprodukte",
+            "Oberbaumaterialien f\u00fcr Verkehrswege im Aussenbereich"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Bedachungen",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Gipsprodukte",
+            "Gipsplatten"
+        ],
+        [
+            "Bedachungen",
+            "Betondachsteine"
+        ],
+        [
+            "Bedachungen",
+            "Dachziegel"
+        ],
+        [
+            "Bedachungen",
+            "Dachziegel"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "T\u00fcren, Fenster, Beschl\u00e4ge und Zubeh\u00f6r",
+            "Schl\u00f6sser und Baubeschl\u00e4ge"
+        ],
+        [
+            "Gipsprodukte",
+            "Gipsplatten"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Inneneinrichtung",
+            "Schichtpressstoffe"
+        ],
+        [
+            "Inneneinrichtung",
+            "Schichtpressstoffe"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Inneneinrichtung",
+            "Schichtpressstoffe"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Fassaden",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Fassaden",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Fassaden",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "Fassaden",
+            "Sonnenschutzsysteme"
+        ],
+        [
+            "Gipsprodukte",
+            "Gipsplatten"
+        ],
+        [
+            "Systemb\u00f6den",
+            "Systemb\u00f6den"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Ziegel"
+        ],
+        [
+            "Befestigungen",
+            "D\u00fcbel aus Kunststoff und Metall"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Bedachungen",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Bedachungen",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Fassaden",
+            "Schichtpressstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Geotextilien und - Membrane",
+            "Technische Textilien"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Glasarmierungsgitter"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Leichtbeton"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Tragende W\u00e4rmed\u00e4mmelemente"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Porenbeton"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Gipsprodukte",
+            "Gipsplatten"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Metalldecken"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baust\u00e4hle"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baust\u00e4hle"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Einblasd\u00e4mmstoffe aus Zellulose- und Holzfasern"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baust\u00e4hle"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Gipsprodukte",
+            "Gipsplatten"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "T\u00fcren, Fenster, Beschl\u00e4ge und Zubeh\u00f6r",
+            "Fenster und T\u00fcren"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "Fassaden",
+            "Naturwerkstein f\u00fcr Dach-, Wand- und Bodenanwendungen"
+        ],
+        [
+            "Fassaden",
+            "Naturwerkstein f\u00fcr Dach-, Wand- und Bodenanwendungen"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Tragende W\u00e4rmed\u00e4mmelemente"
+        ],
+        [
+            "Fassaden",
+            "Keramische Bekleidung"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Fassaden",
+            "Sonnenschutzsysteme"
+        ],
+        [
+            "Fassaden",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Fassaden",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Fassaden",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Einblasd\u00e4mmstoffe aus Zellulose- und Holzfasern"
+        ],
+        [
+            "Fassaden",
+            "Schichtpressstoffe"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Raumtrennsysteme",
+            "Raumtrennsysteme"
+        ],
+        [
+            "Gipsprodukte",
+            "Gipsplatten"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Leichtbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Leichtbeton"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Leichtbeton"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Ziegel"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Metalldecken"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Metalldecken"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Metalldecken"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Metalldecken"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Reaktionsharzprodukte"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Reaktionsharzprodukte"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Reaktionsharzprodukte"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Calciumsilikat-D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Mineralplatten"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Bedachungen",
+            "ETFE Bauelement"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Gipsprodukte",
+            "Gipsplatten"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "Gipsprodukte",
+            "Gipsplatten"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "Raumtrennsysteme",
+            "Raumtrennsysteme"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "T\u00fcren, Fenster, Beschl\u00e4ge und Zubeh\u00f6r",
+            "Fenster und T\u00fcren"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Abdichtungen",
+            "Kunststoffmodifizierte Bitumendickbeschichtungen (KMB) zur Bauwerksabdichtung"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "D\u00fcnnwandige Profile und Profiltafeln aus Metall"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Mineralische Werkm\u00f6rtel"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Tragende W\u00e4rmed\u00e4mmelemente"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "Fassaden",
+            "Sonnenschutzsysteme"
+        ],
+        [
+            "Systemb\u00f6den",
+            "Systemb\u00f6den"
+        ],
+        [
+            "Systemb\u00f6den",
+            "Systemb\u00f6den"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baust\u00e4hle"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baust\u00e4hle"
+        ],
+        [
+            "Fassaden",
+            "Sonnenschutzsysteme"
+        ],
+        [
+            "Bedachungen",
+            "Faserzement / Faserbeton"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Bedachungen",
+            "Dachziegel"
+        ],
+        [
+            "Bedachungen",
+            "Dachziegel"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Mineralische D\u00e4mmstoffe"
+        ],
+        [
+            "T\u00fcren, Fenster, Beschl\u00e4ge und Zubeh\u00f6r",
+            "Fenster und T\u00fcren"
+        ],
+        [
+            "T\u00fcren, Fenster, Beschl\u00e4ge und Zubeh\u00f6r",
+            "Fenster und T\u00fcren"
+        ],
+        [
+            "T\u00fcren, Fenster, Beschl\u00e4ge und Zubeh\u00f6r",
+            "Fenster und T\u00fcren"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vorgefertigte tragende Elemente aus Holz und Holzwerkstoffen "
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Kalksandstein"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Tragende W\u00e4rmed\u00e4mmelemente"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baust\u00e4hle"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Bauklebstoffe und Beschichtungen",
+            "Beschichtungen mit organischen Bindemitteln"
+        ],
+        [
+            "Fassaden",
+            "Sonnenschutzsysteme"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Fassaden",
+            "Sonnenschutzsysteme"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Brandschutz",
+            "Vorgeformte Brandschutzsysteme zur Kabel- und Rohrabschottung"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baust\u00e4hle"
+        ],
+        [
+            "Fassaden",
+            "Vorhangfassaden"
+        ],
+        [
+            "Fassaden",
+            "Vorhangfassaden"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baust\u00e4hle"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baumetalle"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baumetalle"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baumetalle"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baumetalle"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baumetalle"
+        ],
+        [
+            "Metallbauprodukte und Zubeh\u00f6r",
+            "Baumetalle"
+        ],
+        [
+            "Fassaden",
+            "Keramische Bekleidung"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Mineralplatten"
+        ],
+        [
+            "Innen-, Au\u00dfenwand und Deckenbekleidungen",
+            "Mineralplatten"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Fassaden",
+            "Sonnenschutzsysteme"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Einblasd\u00e4mmstoffe aus Zellulose- und Holzfasern"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Raumtrennsysteme",
+            "Raumtrennsysteme"
+        ],
+        [
+            "Raumtrennsysteme",
+            "Raumtrennsysteme"
+        ],
+        [
+            "Geotextilien und - Membrane",
+            "Technische Textilien"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Vakuum-Isolations-Paneelen"
+        ],
+        [
+            "Fassaden",
+            "Fassadenelemente aus Holz-Polymer-Verbundwerkstoffen (WPC)"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Terrassenbel\u00e4ge aus Holz-Polymer-Verbundwerkstoffen (WPC)"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "T\u00fcren, Fenster, Beschl\u00e4ge und Zubeh\u00f6r",
+            "Fenster und T\u00fcren"
+        ],
+        [
+            "T\u00fcren, Fenster, Beschl\u00e4ge und Zubeh\u00f6r",
+            "Schl\u00f6sser und Baubeschl\u00e4ge"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "Holzwerkstoffe",
+            "Holzwerkstoffe"
+        ],
+        [
+            "Abdichtungen",
+            "Dach- und Dichtungsbahnsysteme aus Kunststoffen und Elastomeren"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "Tragende W\u00e4rmed\u00e4mmelemente"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Porenbeton"
+        ],
+        [
+            "Mauerwerk und M\u00f6rtel",
+            "Porenbeton"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Produkte aus Kunststoff",
+            "Tafeln und Platten aus Kunststoff (Innenanwendung)"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Gipsprodukte",
+            "Gipsplatten"
+        ],
+        [
+            "Produkte aus Bauholz",
+            "Vollholzprodukte"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Bodenbel\u00e4ge",
+            "Bodenbel\u00e4ge"
+        ],
+        [
+            "Fassaden",
+            "Sandwichelemente mit beidseitigen Metalldeckschichten"
+        ],
+        [
+            "Fassaden",
+            "Sandwichelemente mit beidseitigen Metalldeckschichten"
+        ],
+        [
+            "Tiefbauprodukte",
+            "Schienen, die eine Spur f\u00fcr Fahrzeuge bilden"
+        ],
+        [
+            "Normal- Leicht- und Porenbeton",
+            "Betonfertigteile"
+        ],
+        [
+            "W\u00e4rmed\u00e4mmungsprodukte",
+            "D\u00e4mmstoffe aus Schaumkunststoffen"
         ]
     ]
 }

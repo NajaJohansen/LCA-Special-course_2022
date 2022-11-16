@@ -40,7 +40,7 @@ data = initial_request.json()
 # Loop going through each of the epds that we have requested. Skips EPD if something goes wrong.
 counter = 0
 for epd in data['data']:
-    if counter > 30:
+    if counter > 400:
         print("stop")
 
     epd_url = epd['uri']  # This is the url that we need to make a request
