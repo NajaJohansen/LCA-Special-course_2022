@@ -17,7 +17,6 @@ def findgwp(list: list):
                 return -1
 
 #This function will return an index number to match the correct value and unit.
-
 def finddensity(list: list):
     counterr = 0
     for item in list:
@@ -110,16 +109,26 @@ def add_phases_to_set(list: list, set: set):
             set.add(dict['module'])
 
 
+
 def add_functional_unit(list: list):
+
     #Det her er regexudtrykket: deklarierte einheit.*?(\d+.[^\s]+)
     for dict in list:
+        shouldReturn = False
 
         if "deklarierte einheit" in dict['value'].lower():
 
             longString = dict['value'].lower().replace('\n', " ").replace('\r', " ")
             #print(longString)
-            enhed = re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString).group(1)
-            print(enhed)
+            if re.search('deklarierte einheit.*?(m²|m2)', longString) is not None:
+                enhed = re.search('deklarierte einheit.*?(m²|m2)', longString).group(1)
+                print('m2 or m2 ', enhed)
+                return enhed
 
 
 
+            elif re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString) is not None:
+                enhed = re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString).group(1)
+
+                print('tal efterfulgt ', enhed)
+                return enhed

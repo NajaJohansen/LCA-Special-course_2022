@@ -42,7 +42,7 @@ counter = 0
 for epd in data['data']:
 
     # Todo: delete this when handing in, it is for the work process, not having to run all epds every time
-    if counter > 45:
+    if counter > 38:
         print("stop")
 
     epd_url = epd['uri']  # This is the url that we need to make a request
@@ -71,11 +71,11 @@ for epd in data['data']:
 
                 category_list.append(categories_1)
                 lifespan_list.append(lifespan_1)
-                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list, density_list)
+                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list, density_list, functional_unit_list )
 
                 category_list.append(categories_2)
                 lifespan_list.append(lifespan_2)
-                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list, density_list)
+                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list, density_list, functional_unit_list)
 
 
             # If the EPD just fits into one category is will only apper once in the final data structure
@@ -84,7 +84,7 @@ for epd in data['data']:
 
                 category_list.append(categories_1)
                 lifespan_list.append(lifespan_1)
-                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list, density_list)
+                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list, density_list, functional_unit_list)
 
 
 

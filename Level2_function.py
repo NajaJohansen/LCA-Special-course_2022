@@ -3,7 +3,7 @@ from typing import List
 import json
 
 
-def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_list: list, density_list: list):
+def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_list: list, density_list: list, functional_unit_list: list):
 
     if 'value' in epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]:
 
@@ -25,8 +25,13 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
         temp.append('No value')
     gwp_list.append(temp)
 
+
+    # TODO: find 'functional unit'
     if 'technologyDescriptionAndIncludedProcesses' in epd_data['processInformation']['technology']:
-        add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
+        functional_unit = add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
+        functional_unit_list.append(functional_unit)
+    else:
+        functional_unit_list.append('No value')
 
     # TODO: find 'UUID'
     if 'UUID' in epd_data['processInformation']['dataSetInformation']:
