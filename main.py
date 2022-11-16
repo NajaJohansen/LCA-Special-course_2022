@@ -30,7 +30,7 @@ token = 'Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsYWVya2VWIiwiaXNzIjoiRUNPUE9SVEF
 parameters = '&format=json&view=extended'
 
 # Parameters to sech for
-meta_parameters = {'pageSize': '300', 'location': 'DE', 'validUntil': '2022', 'format': 'JSON', 'classes': 'bauprodukte'}
+meta_parameters = {'pageSize': '30000', 'validUntil': '2022', 'format': 'JSON', 'classes': 'Bauprodukte'}
 
 # The initial request is made and turned into json, so that we can get the information about each epd
 initial_request = requests.get(url=URL, headers={'Authorization': token}, params=meta_parameters)
@@ -40,7 +40,7 @@ data = initial_request.json()
 # Loop going through each of the epds that we have requested. Skips EPD if something goes wrong.
 counter = 0
 for epd in data['data']:
-    if counter > 2:
+    if counter > 30:
         print("stop")
 
     epd_url = epd['uri']  # This is the url that we need to make a request
@@ -51,7 +51,8 @@ for epd in data['data']:
     epd_data = requests.get(search_url, headers={'Authorization': token})
     if epd_data.status_code == 200:
         epd_data_json = epd_data.json()  # This is the json with the information that we need to get all the information
-        get_epd_info_level_2(epd_data_json, classification_list, name_list, GWP_list, IBU_categories_list)
+
+        get_epd_info_level_2(epd_data_json, classification_list, name_list, GWP_list, IBU_categories_list, functional_unit_list)
 
         print(counter)
 
@@ -77,3 +78,13 @@ overview['IBU_categories_list'] = IBU_categories_list
 data_clean = json.dumps(overview, indent=4)
 with open('json_epd_classific_overblik.json', 'w', encoding='utf8') as f:
     f.write(data_clean)
+
+correct = 0
+incorrect = 0
+for unit in functional_unit_list:
+    if unit.startswith("1"):
+        correct += 1
+    else:
+        unit = ""
+        incorrect += 1
+print("naja")

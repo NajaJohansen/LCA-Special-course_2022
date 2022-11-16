@@ -93,15 +93,28 @@ def add_phases_to_set(list: list, set: set):
 
 
 def add_functional_unit(list: list):
+
     #Det her er regexudtrykket: deklarierte einheit.*?(\d+.[^\s]+)
     for dict in list:
+        shouldReturn = False
 
         if "deklarierte einheit" in dict['value'].lower():
 
             longString = dict['value'].lower().replace('\n', " ").replace('\r', " ")
             #print(longString)
-            enhed = re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString).group(1)
-            print(enhed)
+            if re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString) is not None:
+                enhed = re.search('deklarierte einheit.*?(\d+.[^\s]+)', longString).group(1)
+
+                if enhed.startswith("1"):
+                    if ('k' or 'm' or 't' or 'g') in enhed:
+                        if '4' or '5' or '6' or '7' or '8' or '9' not in enhed:
+                            print(enhed)
+                            shouldReturn = True
+        if shouldReturn:
+                return enhed
+        else:
+                return 'No value'
+
 
 
 
