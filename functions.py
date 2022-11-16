@@ -16,6 +16,24 @@ def findgwp(list: list):
             if counterr > len(list):
                 return -1
 
+#This function will return an index number to match the correct value and unit.
+
+def finddensity(list: list):
+    counterr = 0
+    for item in list:
+        # print(item)
+        matches = ['kg/m^3', 'kg/m3', 'kg/m³']
+        isMatch = [True for match in matches if match in item['unit']]
+
+        if isMatch:
+            return counterr
+
+        else:
+            counterr += 1
+            if counterr > len(list):
+                return -1
+
+
 
 def findIBUcategories(list: list):
     counterrr = 0

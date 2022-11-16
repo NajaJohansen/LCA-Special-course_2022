@@ -17,7 +17,7 @@ category_list = []
 GWP_list = []  # A list with lists that has this order of stages
 lifespan_list = []
 uuid_list = []
-
+density_list = []
 #                                                              __STEP 1__
 # First url to get all the epds
 URL = 'https://data.eco-platform.org/resource/processes?search=true&distributed=true&virtual=true&metaDataOnly=false'
@@ -42,7 +42,7 @@ counter = 0
 for epd in data['data']:
 
     # Todo: delete this when handing in, it is for the work process, not having to run all epds every time
-    if counter > 10:
+    if counter > 45:
         print("stop")
 
     epd_url = epd['uri']  # This is the url that we need to make a request
@@ -71,11 +71,12 @@ for epd in data['data']:
 
                 category_list.append(categories_1)
                 lifespan_list.append(lifespan_1)
-                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list)
+                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list, density_list)
 
                 category_list.append(categories_2)
                 lifespan_list.append(lifespan_2)
-                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list)
+                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list, density_list)
+
 
             # If the EPD just fits into one category is will only apper once in the final data structure
             else:
@@ -83,14 +84,18 @@ for epd in data['data']:
 
                 category_list.append(categories_1)
                 lifespan_list.append(lifespan_1)
-                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list)
+                get_epd_info_level_2(epd_data_json, name_list, GWP_list, uuid_list, density_list)
 
-        print(counter)
+
+
 
     else:
         print(f'Request error {epd_data.status_code}')
 
+    print(counter)
     counter += 1
+
+
 #Kalder på hjælpefil "Phase_names"
 for phase in set_of_phases:
     f = open("phase_names.txt", "a")
@@ -106,7 +111,7 @@ overview['functional_unit_list'] = functional_unit_list
 overview['GWP_list'] = GWP_list
 overview['category_list'] = category_list
 overview['lifespan_list'] = lifespan_list
-
+overview['density_list'] = density_list
 data_clean = json.dumps(overview, indent=4)
 with open('json_epd_classific_overblik.json', 'w', encoding='utf8') as f:
     f.write(data_clean)

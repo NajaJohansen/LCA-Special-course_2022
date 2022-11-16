@@ -3,7 +3,7 @@ from typing import List
 import json
 
 
-def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_list: list):
+def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_list: list, density_list: list):
 
     if 'value' in epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]:
 
@@ -34,6 +34,20 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
         uuid_list.append(uuid_value)
     else:
         uuid_list.append('No value')
+
+
+# TODO: find 'Density'
+#Some EPDs contain a list called "materialProperties". The function will search in the list for the correct unit (kg/m3) and print the belonging
+#value
+    if 'materialProperties' in epd_data['exchanges']['exchange'][0]:
+        temp_list = epd_data['exchanges']['exchange'][0]['materialProperties']
+        if finddensity(temp_list) is not None and finddensity(temp_list) >= 0:
+            density = epd_data['exchanges']['exchange'][0]['materialProperties'][finddensity(temp_list)]['value']
+            density_list.append(density)
+        else:
+            density_list.append('No value')
+    else:
+        density_list.append('No value')
 
 
 def find_ibu_classification(epd_data_json: dict):
