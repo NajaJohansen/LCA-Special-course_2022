@@ -132,28 +132,29 @@ def add_phases_to_set(list: list, set: set):
 def add_functional_unit(list: list):
     """
     This function will look through a string and find the functional unit of the EPD. To find the functional unit different
-    regex functions are used.
+    regex functions are used. All regexes used in this project can be fine tuned.
 
     :param list: A string containing the functional unit. Due to German EPDs "Deklarierte einheit" has been investigated.
     :return: The correct unit
     """
     #Det her er regexudtrykket: deklarierte einheit.*?(\d+.[^\s]+)
     for dict in list:
-        shouldReturn = False
+
 
 
         #Making all letters lowercase and replacing all "new lines" with " ") to make it more equal.
         if "deklarierte einheit" in dict['value'].lower():
 
             longString = dict['value'].lower().replace('\n', " ").replace('\r', " ")
-            #print(longString)
 
-            #Regex: Looking for "deklarierte einheit" followed by m2 or m².
+
+            #Regex: Looking for "deklarierte einheit" followed by anything until either m2 or m² is read.
             if re.search('deklarierte einheit.*?(m²|m2)', longString) is not None:
                 enhed = re.search('deklarierte einheit.*?(m²|m2)', longString).group(1)
                 return enhed
 
-            #Regex: Looking for the number "1" followed by a unit. The unit cannot contain the following characters: XXX
+            #Regex: Looking for "deklarierte einheit" where after finding it, it'll find the next occurence of 1 that is not immediatly followed
+            # by (,.-102lf3456789). Then it will find unlimited amount of characters until not (\sslfi456789,.-) is not met.
 
 
             elif re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString) is not None:
