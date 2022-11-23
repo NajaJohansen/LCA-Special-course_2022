@@ -4,13 +4,33 @@ import json
 
 
 def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_list: list, density_list: list, functional_unit_list: list):
+    """
 
+    :param epd_data: XXX
+    :param name_list: A list of names of the EPDs. In case that an EPD does not have a name in the researched location, "No value"
+    will occur.
+    :param gwp_list:  A list of lists with LCIA results for the environmental impact category "Global warming potential, GWP".
+    The list of lists illustrates the following phases "A1-3", "A4", "A5", "B4", "B6", "C3-4" for an EPD. In case GWP is not
+    representative in the EPD, "No value" will occur.
+    :param uuid_list: A list with a unique ID "UUID" of the EPDs. In case that an EPD does not have a UUID in the researched location,
+    "No value" will occur.
+    :param density_list: A list of densities. In case that an EPD does not have a density in the researched location, "No value"
+    will occur.
+
+
+
+    :param functional_unit_list: A list with the functional unit of the EPD. In case the following unit is false "No value" will occur
+    the list.
+    :return:
+    """
+#TO DO: Bruges epd_data parameteren??
     if 'value' in epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]:
 
         name_value = epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]['value']
         name_list.append(name_value)
     else:
         name_list.append('No value')
+
 
     temp = []
     if 'anies' in epd_data['LCIAResults']['LCIAResult'][findgwp(epd_data['LCIAResults']['LCIAResult'])]['other']:
@@ -33,7 +53,7 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
     else:
         functional_unit_list.append('No value')
 
-    # TODO: find 'UUID'
+
     if 'UUID' in epd_data['processInformation']['dataSetInformation']:
         uuid_value = epd_data['processInformation']['dataSetInformation']['UUID']
         uuid_list.append(uuid_value)
@@ -41,9 +61,8 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
         uuid_list.append('No value')
 
 
-# TODO: find 'Density'
-#Some EPDs contain a list called "materialProperties". The function will search in the list for the correct unit (kg/m3) and print the belonging
-#value
+
+    #if the function "finddensity" returns "-1", "No value" will be appended in the list
     if 'materialProperties' in epd_data['exchanges']['exchange'][0]:
         temp_list = epd_data['exchanges']['exchange'][0]['materialProperties']
         if finddensity(temp_list) is not None and finddensity(temp_list) >= 0:
