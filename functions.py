@@ -3,8 +3,13 @@ import copy
 import re
 
 
-# En funktion som går igennem listen med alle påvirkningskategorier. Funktionen leder efter GWP og retunerer dets indeks.
 def findgwp(list: list):
+    """
+    This function will find the correct location of the wanted impact category.
+    :param list: A list with LCIA results of different environmental impact categories.
+    :return: A number in the list which represents the index number of the specific list where the impact category
+    "Global warming potential, GWP" is located.
+    """
     counterr = 0
     for item in list:
         # print(item)
@@ -16,8 +21,15 @@ def findgwp(list: list):
             if counterr > len(list):
                 return -1
 
-#This function will return an index number to match the correct value and unit.
+
+
 def finddensity(list: list):
+    """
+    This function will go through a list and look for a correct unit.
+    :param list: A list where different material properties will occur.
+    :return: The index number in list that represents the correct location of density. In case that the investigated unit is not
+    found, "-1" will be returned.
+    """
     counterr = 0
     for item in list:
         # print(item)
@@ -47,8 +59,15 @@ def findIBUcategories(list: list):
                 return -1
 
 
-# Summerer fasernes værdier i tilfælde af at de er adskilte i datasættet
+
 def find_sum_of_phases(list: list):
+    """
+    This function will make sure that the LCIA results of all EPDs is sorted in the same way and correctly due to the danish
+    "voluntary sustainability class, FBK".
+    :param list: A list with a dictionary containing the phases and the belonging result.
+    :return:A list with results of phases sorted correctly. Some EPDs do not include all phases and "0" will occur if
+    there is no result.
+    """
     sum_of_a1_to_a3_phases = 0
     sum_of_a4_phase = 0
     sum_of_a5_phase = 0
@@ -59,7 +78,7 @@ def find_sum_of_phases(list: list):
 
     for dict in list:
         if "module" in dict:
-            # Checker alle A Faser og summere hvis de er opdelt
+            # Checking for all phases with "A". Sums up A1-3 if they are divided.
             if 'A1-A3' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_a1_to_a3_phases = the_sum
@@ -80,14 +99,14 @@ def find_sum_of_phases(list: list):
                 the_sum = (float(dict['value']))
                 sum_of_a5_phase += the_sum
 
-            # B faser
+
             if 'B4' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_b4_phases = the_sum
             if 'B6' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_b6_phases = the_sum
-            # C faserne checkes
+            # Checking for all phases with "C". Sums up if they are divided.
             if 'C3-C4' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_c3_to_c4_phases += the_sum
@@ -111,24 +130,33 @@ def add_phases_to_set(list: list, set: set):
 
 
 def add_functional_unit(list: list):
+    """
+    This function will look through a string and find the functional unit of the EPD. To find the functional unit different
+    regex functions are used. All regexes used in this project can be fine tuned.
 
+    :param list: A string containing the functional unit. Due to German EPDs "Deklarierte einheit" has been investigated.
+    :return: The correct unit
+    """
     #Det her er regexudtrykket: deklarierte einheit.*?(\d+.[^\s]+)
     for dict in list:
-        shouldReturn = False
 
+
+
+        #Making all letters lowercase and replacing all "new lines" with " ") to make it more equal.
         if "deklarierte einheit" in dict['value'].lower():
 
             longString = dict['value'].lower().replace('\n', " ").replace('\r', " ")
-            #print(longString)
+
+
+            #Regex: Looking for "deklarierte einheit" followed by anything until either m2 or m² is read.
             if re.search('deklarierte einheit.*?(m²|m2)', longString) is not None:
                 enhed = re.search('deklarierte einheit.*?(m²|m2)', longString).group(1)
-                print('m2 or m2 ', enhed)
                 return enhed
 
+            #Regex: Looking for "deklarierte einheit" where after finding it, it'll find the next occurence of 1 that is not immediatly followed
+            # by (,.-102lf3456789). Then it will find unlimited amount of characters until not (\sslfi456789,.-) is not met.
 
 
             elif re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString) is not None:
                 enhed = re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString).group(1)
-
-                print('tal efterfulgt ', enhed)
                 return enhed

@@ -42,7 +42,7 @@ counter = 0
 for epd in data['data']:
 
     # Todo: delete this when handing in, it is for the work process, not having to run all epds every time
-    if counter > 38:
+    if counter > 9:
         print("stop")
 
     epd_url = epd['uri']  # This is the url that we need to make a request
