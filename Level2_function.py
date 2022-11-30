@@ -2,7 +2,7 @@ from functions import *
 from typing import List
 import json
 
-
+# test
 def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_list: list, density_list: list, functional_unit_list: list):
 
     if 'value' in epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]:
