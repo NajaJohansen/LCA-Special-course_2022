@@ -125,16 +125,19 @@ def add_phases_to_set(list: list, set: set):
 
 def add_functional_unit(list: list):
     """
-    This function will look through a string and find the functional unit of the EPD. To find the functional unit different
-    regex functions are used. All regexes used in this project can be fine tuned.
+    This function will look through a string and find the functional unit of the EPD. Different regexes functions are used.
+
+    There have been issues with data regarding the functional unit. All regexes used in this project can therefore be fine tuned.
+    See more information about this at Github.
 
     :param list: A string containing the functional unit. Due to German EPDs "Deklarierte einheit" has been investigated.
     :return: The correct unit
     """
-    # Det her er regexudtrykket: deklarierte einheit.*?(\d+.[^\s]+)
+
     for dict in list:
 
-        # Making all letters lowercase and replacing all "new lines" with " ") to make it more equal.
+        #Making all letters lowercase and replacing all "new lines" with " ") to make it more equal.
+
         if "deklarierte einheit" in dict['value'].lower():
 
             longString = dict['value'].lower().replace('\n', " ").replace('\r', " ")
@@ -150,3 +153,5 @@ def add_functional_unit(list: list):
             elif re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString) is not None:
                 enhed = re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString).group(1)
                 return enhed
+
+
