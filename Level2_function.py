@@ -6,7 +6,7 @@ import json
 def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_list: list, density_list: list, functional_unit_list: list):
     """
 
-    :param epd_data: XXX
+    :param epd_data: The data for one EPD in json format
     :param name_list: A list of names of the EPDs. In case that an EPD does not have a name in the researched location, "No value"
     will occur.
     :param gwp_list:  A list of lists with LCIA results for the environmental impact category "Global warming potential, GWP".
@@ -46,7 +46,7 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
     gwp_list.append(temp)
 
 
-    # TODO: find 'functional unit'
+
     if 'technologyDescriptionAndIncludedProcesses' in epd_data['processInformation']['technology']:
         functional_unit = add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
         functional_unit_list.append(functional_unit)
