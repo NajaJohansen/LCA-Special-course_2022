@@ -31,10 +31,8 @@ for epd in data['data']:
 
     epd_id = epd['uuid']
     epd_url = f'{URL}/sources/{epd_id}'  # This is the url that we need to make a request
-    # TODO: here we could sort the epds from the initial info. Some are not relevant and we can already see that here.
     search_url = epd_url  # We are concatenating our url with the parameters that we need.
 
+    # TODO: These requests do not work, so that is an issue to solve
     epd_data = requests.get(url=search_url, params=meta_parameters)
     epd_data_json = epd_data.json()
-
-    print('test')
