@@ -1,5 +1,4 @@
 import copy
-
 import re
 
 
@@ -20,7 +19,6 @@ def findgwp(list: list):
             counterr += 1
             if counterr > len(list):
                 return -1
-
 
 
 def finddensity(list: list):
@@ -45,7 +43,6 @@ def finddensity(list: list):
                 return -1
 
 
-
 def findIBUcategories(list: list):
     counterrr = 0
     for dict in list:
@@ -57,7 +54,6 @@ def findIBUcategories(list: list):
             counterrr += 1
             if counterrr > len(list):
                 return -1
-
 
 
 def find_sum_of_phases(list: list):
@@ -99,7 +95,6 @@ def find_sum_of_phases(list: list):
                 the_sum = (float(dict['value']))
                 sum_of_a5_phase += the_sum
 
-
             if 'B4' in dict['module']:
                 the_sum = (float(dict['value']))
                 sum_of_b4_phases = the_sum
@@ -128,7 +123,6 @@ def add_phases_to_set(list: list, set: set):
             set.add(dict['module'])
 
 
-
 def add_functional_unit(list: list):
     """
     This function will look through a string and find the functional unit of the EPD. To find the functional unit different
@@ -137,16 +131,13 @@ def add_functional_unit(list: list):
     :param list: A string containing the functional unit. Due to German EPDs "Deklarierte einheit" has been investigated.
     :return: The correct unit
     """
-    #Det her er regexudtrykket: deklarierte einheit.*?(\d+.[^\s]+)
+    # Det her er regexudtrykket: deklarierte einheit.*?(\d+.[^\s]+)
     for dict in list:
 
-
-
-        #Making all letters lowercase and replacing all "new lines" with " ") to make it more equal.
+        # Making all letters lowercase and replacing all "new lines" with " ") to make it more equal.
         if "deklarierte einheit" in dict['value'].lower():
 
             longString = dict['value'].lower().replace('\n', " ").replace('\r', " ")
-
 
             #Regex: Looking for "deklarierte einheit" followed by anything until either m2 or m² is read.
             if re.search('deklarierte einheit.*?(m²|m2)', longString) is not None:
@@ -155,7 +146,6 @@ def add_functional_unit(list: list):
 
             #Regex: Looking for "deklarierte einheit" where after finding it, it'll find the next occurence of 1 that is not immediatly followed
             # by (,.-102lf3456789). Then it will find unlimited amount of characters until not (\sslfi456789,.-) is not met.
-
 
             elif re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString) is not None:
                 enhed = re.search('deklarierte einheit.*?(1[^,.-102lf3456789][^\sslfi456789,.-]+)', longString).group(1)

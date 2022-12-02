@@ -2,7 +2,7 @@ from functions import *
 from typing import List
 import json
 
-# test
+
 def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_list: list, density_list: list, functional_unit_list: list):
     """
 
@@ -16,14 +16,12 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
     "No value" will occur.
     :param density_list: A list of densities. In case that an EPD does not have a density in the researched location, "No value"
     will occur.
-
-
-
     :param functional_unit_list: A list with the functional unit of the EPD. In case the following unit is false "No value" will occur
     the list.
     :return:
     """
-#TO DO: Bruges epd_data parameteren??
+
+    # Find the name of the EPD
     if 'value' in epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]:
 
         name_value = epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]['value']
@@ -31,7 +29,7 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
     else:
         name_list.append('No value')
 
-
+    # Find the indicators for the epd
     temp = []
     if 'anies' in epd_data['LCIAResults']['LCIAResult'][findgwp(epd_data['LCIAResults']['LCIAResult'])]['other']:
 
@@ -45,24 +43,21 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
         temp.append('No value')
     gwp_list.append(temp)
 
-
-    # TODO: find 'functional unit'
+    # Find the functional unit of the EPD
     if 'technologyDescriptionAndIncludedProcesses' in epd_data['processInformation']['technology']:
         functional_unit = add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
         functional_unit_list.append(functional_unit)
     else:
         functional_unit_list.append('No value')
 
-
+    # Find the UUID of the EPD - Is not currently used for the saved data
     if 'UUID' in epd_data['processInformation']['dataSetInformation']:
         uuid_value = epd_data['processInformation']['dataSetInformation']['UUID']
         uuid_list.append(uuid_value)
     else:
         uuid_list.append('No value')
 
-
-
-    #if the function "finddensity" returns "-1", "No value" will be appended in the list
+    # if the function "finddensity" returns "-1", "No value" will be appended in the list
     if 'materialProperties' in epd_data['exchanges']['exchange'][0]:
         temp_list = epd_data['exchanges']['exchange'][0]['materialProperties']
         if finddensity(temp_list) is not None and finddensity(temp_list) >= 0:
@@ -84,9 +79,9 @@ def find_ibu_classification(epd_data_json: dict):
     classification_list = []
 
     if 'classification' in epd_data_json['processInformation']['dataSetInformation']['classificationInformation']:
-        IBUindex = findIBUcategories(epd_data_json['processInformation']['dataSetInformation']['classificationInformation']['classification'])
+        ibu_index = findIBUcategories(epd_data_json['processInformation']['dataSetInformation']['classificationInformation']['classification'])
 
-        class_list = epd_data_json['processInformation']['dataSetInformation']['classificationInformation']['classification'][IBUindex]['class']
+        class_list = epd_data_json['processInformation']['dataSetInformation']['classificationInformation']['classification'][ibu_index]['class']
         for element in class_list:
             if 'Bauprodukte' in element['value']:
                 continue
