@@ -83,7 +83,7 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
 def find_ibu_classification(epd_data_json: dict):
     """
     This function finds the IBU classification for the EPD. This classification is used to sort the EPDs into
-    categories in the function match_categories. Or it registrers if there is
+    categories in the function match_categories. Or it registers if there is
     :param epd_data_json: The data for one EPD in json format
     :return: if there are classifications a list of strings is returned, otherwise the string saying 'No value'
     """
