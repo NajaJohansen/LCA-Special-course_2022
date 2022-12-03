@@ -10,14 +10,12 @@
   <p align="center">
     Tool for flexible LCA analysis of buildings
     <br />
-    <a href="https://github.com/build-aau/parmesan"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/NajaJohansen/GrassHopper_Course"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/build-aau/parmesan/pulls">Pull requests</a>
+    <a href="https://github.com/NajaJohansen/GrassHopper_Course/pulls">Pull requests</a>
     ·
-    <a href="https://github.com/build-aau/parmesan/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/build-aau/parmesan/issues">Request Feature</a>
+    <a href="https://github.com/NajaJohansen/GrassHopper_Course/issues">Elaboration of unsolved</a>
   </p>
 </div>
 <!-- TABLE OF CONTENTS -->
