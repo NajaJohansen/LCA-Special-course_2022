@@ -5,7 +5,6 @@ import json
 
 def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_list: list, density_list: list, functional_unit_list: list):
     """
-
     :param epd_data: The data for one EPD in json format
     :param name_list: A list of names of the EPDs. In case that an EPD does not have a name in the researched location, "No value"
     will occur.
