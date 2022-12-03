@@ -6,15 +6,18 @@ import json
 def to_csv(filename: str, name_list: List[str], functional_unit_list: List[str], gwp_list: List[List[float]],
            category_list: List[List[str]], lifespan_list: List[int], density_list: List[float]):
     """
+    This function saves the epd data as a csv. each row contains data for one epd.
+    The data is taken from each of the lists containing the sorted data.
 
-    :param filename:
-    :param name_list:
-    :param functional_unit_list:
-    :param gwp_list:
-    :param category_list:
-    :param lifespan_list:
-    :param density_list:
-    :return:
+    :param filename: a string with the filename.csv as chosen.
+    :param name_list: list with epd names
+    :param functional_unit_list: list with the functional units for the epds
+    :param gwp_list: list with list of the six gwp indicators as floats
+    :param category_list: list with list of categories, index 0 is the product category and index 1 the material
+    :param lifespan_list: list with lifetimes as integers
+    :param density_list: list with densities as floats
+
+    a csv file containing the data will be saved next to this script with the given name
     """
 
     with open(filename, 'w', newline='') as csvfile:
@@ -22,6 +25,8 @@ def to_csv(filename: str, name_list: List[str], functional_unit_list: List[str],
                       'C3-C4', 'Density']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
+
+        # a row is written for each index of the lists
         for index, _ in enumerate(name_list):
             writer.writerow({'Component': 'Exterior wall',
                              'Unit': functional_unit_list[index],
@@ -42,15 +47,18 @@ def to_csv(filename: str, name_list: List[str], functional_unit_list: List[str],
 def to_json(filename: str, name_list: List[str], functional_unit_list: List[str], gwp_list: List[List[float]],
            category_list: List[List[str]], lifespan_list: List[int], density_list: List[float]):
     """
+    This function saves the epd data as json. a dictionary is made from the data from each of the
+    lists containing the sorted data, which is then converted to json.
 
-    :param filename:
-    :param name_list:
-    :param functional_unit_list:
-    :param gwp_list:
-    :param category_list:
-    :param lifespan_list:
-    :param density_list:
-    :return:
+    :param filename: a string with the filename.csv as chosen.
+    :param name_list: list with epd names
+    :param functional_unit_list: list with the functional units for the epds
+    :param gwp_list: list with list of the six gwp indicators as floats
+    :param category_list: list with list of categories, index 0 is the product category and index 1 the material
+    :param lifespan_list: list with lifetimes as integers
+    :param density_list: list with densities as floats
+
+    a json file containing the data will be saved next to this script with the given name
     """
 
     # Dictionary to gather information

@@ -20,57 +20,70 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
     :return:
     """
 
+    # Temporary variables to store results
+    temp_name = None
+    temp_gwp = []
+    temp_uuid = None
+    temp_density = 0
+    temp_fu = None
+
     # Find the name of the EPD
     if 'value' in epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]:
 
-        name_value = epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]['value']
-        name_list.append(name_value)
-    else:
-        name_list.append('No value')
+        temp_name = epd_data['processInformation']['dataSetInformation']['name']['baseName'][0]['value']
 
-    # Find the indicators for the epd
-    temp = []
+    else:
+        temp_name = 'No value'
+
+    # Find the indicators for the EPD
     if 'anies' in epd_data['LCIAResults']['LCIAResult'][findgwp(epd_data['LCIAResults']['LCIAResult'])]['other']:
 
         theindex = findgwp(epd_data['LCIAResults']['LCIAResult'])
 
         if len(epd_data['LCIAResults']['LCIAResult'][theindex]['other']['anies']) != 0:
-            temp = find_sum_of_phases(epd_data['LCIAResults']['LCIAResult'][theindex]['other']['anies'])
+            temp_gwp = find_sum_of_phases(epd_data['LCIAResults']['LCIAResult'][theindex]['other']['anies'])
         else:
-            temp.append('No value')
+            temp_gwp.append('No value')
     else:
-        temp.append('No value')
-    gwp_list.append(temp)
+        temp_gwp.append('No value')
 
+    # Find the functional unit for the EPD
     if 'technologyDescriptionAndIncludedProcesses' in epd_data['processInformation']['technology']:
-        functional_unit = add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
-        functional_unit_list.append(functional_unit)
+        temp_fu = add_functional_unit(epd_data['processInformation']['technology']['technologyDescriptionAndIncludedProcesses'])
     else:
-        functional_unit_list.append('No value')
+        temp_fu = 'No value'
 
     # Find the UUID of the EPD - Is not currently used for the saved data
     if 'UUID' in epd_data['processInformation']['dataSetInformation']:
-        uuid_value = epd_data['processInformation']['dataSetInformation']['UUID']
-        uuid_list.append(uuid_value)
+        temp_uuid = epd_data['processInformation']['dataSetInformation']['UUID']
     else:
-        uuid_list.append('No value')
+        temp_uuid = 'No value'
 
     # if the function "finddensity" returns "-1", "No value" will be appended in the list
     if 'materialProperties' in epd_data['exchanges']['exchange'][0]:
         temp_list = epd_data['exchanges']['exchange'][0]['materialProperties']
         if finddensity(temp_list) is not None and finddensity(temp_list) >= 0:
-            density = epd_data['exchanges']['exchange'][0]['materialProperties'][finddensity(temp_list)]['value']
-            density_list.append(density)
+            temp_density = epd_data['exchanges']['exchange'][0]['materialProperties'][finddensity(temp_list)]['value']
         else:
-            density_list.append('No value')
+            temp_density = 'No value'
     else:
-        density_list.append('No value')
+        temp_density = 'No value'
 
+    # The results are tested and only appended if they are accepted
+    # TODO: It would be more robust if more data could be handled, but for now only the "good" data is used
+    if temp_gwp[-1] == 0 or temp_fu != 'm²' and temp_fu != 'm2':
+        return 'Data not usable'
+    else:
+        name_list.append(temp_name)
+        gwp_list.append(temp_gwp)
+        functional_unit_list.append(temp_fu)
+        uuid_list.append(temp_uuid)
+        density_list.append(temp_density)
 
 def find_ibu_classification(epd_data_json: dict):
     """
     This function finds the IBU classification for the EPD. This classification is used to sort the EPDs into
-    categories in the function match_categories. Or it registrers if there is
+    categories in the function match_categories. Or it registers if there is
     :param epd_data_json: The data for one EPD in json format
     :return: if there are classifications a list of strings is returned, otherwise the string saying 'No value'
     """
