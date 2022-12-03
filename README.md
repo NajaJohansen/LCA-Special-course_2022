@@ -6,7 +6,7 @@
   <a href="https://github.com/build-aau/parmesan">
     <img src="doc/images/parmesan.png" alt="Logo" width="80" height="80">
   </a>
-<h3 align="center">Parmesan</h3>
+<h3 align="center">Parametric Life-Cycle Assessment in Early-stage Building Design</h3>
   <p align="center">
     Tool for flexible LCA analysis of buildings
     <br />
