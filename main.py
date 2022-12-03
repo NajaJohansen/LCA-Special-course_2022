@@ -11,7 +11,7 @@ URL = 'https://data.eco-platform.org/resource/processes?search=true&distributed=
 token = 'Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsYWVya2VWIiwiaXNzIjoiRUNPUE9SVEFMIiwiYXVkIjoiYW55IiwidmVyIjoiNy40LjIiLCJwZXJtaXNzaW9ucyI6WyJzdG9jazpyZWFkLGV4cG9ydDoyIiwic3RvY2s6cmVhZCxleHBvcnQ6MSIsInVzZXI6cmVhZCx3cml0ZToxNTQiXSwicm9sZXMiOltdLCJpYXQiOjE2NjMxNjQ5ODIsImV4cCI6MTY3MTA0ODk4MiwiZW1haWwiOiJzMTczODMyQHN0dWRlbnQuZHR1LmRrIiwidGl0bGUiOiIiLCJmaXJzdE5hbWUiOiJMYWVya2UiLCJsYXN0TmFtZSI6IlZlanNuYWVzIiwiZ2VuZXJhdGVOZXdUb2tlbnMiOmZhbHNlLCJqb2JQb3NpdGlvbiI6IlN0dWRlbnQiLCJhZGRyZXNzIjp7ImNpdHkiOiJLb25nZW5zIEx5bmdieSIsInppcENvZGUiOiIyODAwIiwiY291bnRyeSI6IkRLIiwic3RyZWV0IjoiIn0sIm9yZ2FuaXphdGlvbiI6e30sInVzZXJHcm91cHMiOlt7InVzZXJHcm91cE5hbWUiOiJyZWdpc3RlcmVkX3VzZXJzIiwidXNlckdyb3VwT3JnYW5pemF0aW9uTmFtZSI6IkRlZmF1bHQgT3JnYW5pemF0aW9uIn1dLCJhZG1pbmlzdHJhdGVkT3JnYW5pemF0aW9uc05hbWVzIjoiIiwicGhvbmUiOiIiLCJkc3B1cnBvc2UiOiJGb3IgYSBzY2hvb2wgcHJvamVjdCBhdCBteSBtYXN0ZXJzIGluIEFyY2hpdGVjdHVyYWwgRW5nZW5lZXJpbmcgYXQgRFRVLiBXZSBhcmUgYSBncm91cCBvZiBzdHVkZW50cyB0aGF0IGFyZSB3b2tpbmcgb24gbGVhbmluZyBob3cgdG8gd29yayB3aXRoIExDQSBhbmQgRVBEcy4iLCJzZWN0b3IiOiIiLCJpbnN0aXR1dGlvbiI6IlRlY2huaWNhbCBVbml2ZXJzaXR5IG9mIERlbm1hcmsgLSBEVFUifQ.VWCEmxgB4HSDCYJ7tdZtx-ZZWzxNVgLDXKH4-PqZEzgbBl2erK63MLtGigartJ0no6LDZuThbVxNzD10-IMjrcIn_bKEmo60gnFc9xXTPGZVjL4CybRPhdPx1lEfGFD_zh8r3mhhuUJrf73vtdVVnK-DQ0e4ji7-W2dl0NnuYVI'
 
 # Parameters to search for
-meta_parameters = {'pageSize': '10', 'validUntil': '2022', 'format': 'JSON', 'classes': 'bauprodukte'}
+meta_parameters = {'pageSize': '1000', 'validUntil': '2022', 'format': 'JSON', 'classes': 'bauprodukte'}
 
 # The initial request is made and turned into json, so that we can get the information about each epd
 initial_request = requests.get(url=URL, headers={'Authorization': token}, params=meta_parameters)
@@ -34,7 +34,7 @@ for epd in data['data']:
 
     # Todo: delete this when handing in, it is for the work process, not having to run all epds every time
     if counter > 9:
-        print("stop")
+        a = 1 + 2
 
     epd_url = epd['uri']  # This is the url that we need to make a request
 
@@ -65,22 +65,25 @@ for epd in data['data']:
             if match[-1]:
                 categories_1, categories_2, lifespan_1, lifespan_2 = match[0], match[1], match[2], match[3]
 
-                category_list.append(categories_1)
-                lifespan_list.append(lifespan_1)
-                get_epd_info_level_2(epd_data_json, name_list, gwp_list, uuid_list, density_list, functional_unit_list)
+                if get_epd_info_level_2(epd_data_json, name_list, gwp_list, uuid_list, density_list, functional_unit_list) != 'Data not usable':
 
-                category_list.append(categories_2)
-                lifespan_list.append(lifespan_2)
-                get_epd_info_level_2(epd_data_json, name_list, gwp_list, uuid_list, density_list, functional_unit_list)
+                    category_list.append(categories_1)
+                    lifespan_list.append(lifespan_1)
+
+                    category_list.append(categories_2)
+                    lifespan_list.append(lifespan_2)
+                    get_epd_info_level_2(epd_data_json, name_list, gwp_list, uuid_list, density_list, functional_unit_list)
+                    print('success')
 
             # If the EPD just fits into one category is will only apper once in the final data structure
             else:
                 categories_1, lifespan_1 = match[0], match[1]
 
-                category_list.append(categories_1)
-                lifespan_list.append(lifespan_1)
-                get_epd_info_level_2(epd_data_json, name_list, gwp_list, uuid_list, density_list, functional_unit_list)
+                if get_epd_info_level_2(epd_data_json, name_list, gwp_list, uuid_list, density_list, functional_unit_list) != 'Data not usable':
 
+                    category_list.append(categories_1)
+                    lifespan_list.append(lifespan_1)
+                    print('success')
 
     else:
         print(f'Request error {epd_data.status_code}')
