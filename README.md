@@ -15,7 +15,7 @@
     <br />
     <a href="https://github.com/NajaJohansen/GrassHopper_Course/pulls">Pull requests</a>
     ·
-    <a href="https://github.com/NajaJohansen/GrassHopper_Course/issues">Elaboration of unsolved</a>
+    <a href="https://github.com/NajaJohansen/GrassHopper_Course/issues">Elaboration of unsolved issues</a>
   </p>
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -44,6 +44,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+The project have been performed by 6 master students as part of a 5 ects point course at the Technical University of Denmark (DTU). The project have had the focus areas: 
+  1) Create an EPD search engine in python that can connect with Ecoportalen through an API and produce a library of EPDs that a categorised in different building component categories. (LÆRKE OG NAJA RETTER)
+  2) Create a grasshopper script that can use the library and relate the building components with the correct EPDs and thus caluclate CO2 impact of different constructions and subsequently an entire building. The results of the CO2 calculatines is given in ranges. 
+  3) Visulaize the results as boxplot that indicates the range of possible CO2 impact of a building, depning on which materaial combination 
+
+
+By conveying LCA results with a range instead of a single number, designers are to a greater extend made aware of the impact of their decisions. This will help integrate sustainble thinking into building design
+
 The goal is to develop tools that will allow the user to perform LCA analysis in a 
 more dynamic and parametric way.
 The project is a 3-week course performed by Lærke Høvsgaard Vejsnæs and Terese Pagh, both
