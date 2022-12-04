@@ -1,11 +1,7 @@
 [![AGPL License][license-shield]][license-url]
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/build-aau/parmesan">
-    <img src="doc/images/parmesan.png" alt="Logo" width="80" height="80">
-  </a>
 <h3 align="center">Parametric Life-Cycle Assessment in Early-stage Building Design</h3>
   <p align="center">
     Tool for flexible LCA analysis of buildings
@@ -65,6 +61,8 @@ The code is built with the intent to implement a user interface with required us
 We will be updating and adding to this repository frequently, and we will very much appreciate comments and suggestions 
 if anyone is interested. 
 
+### Requesting EPD data via API
+A large part of this project is about getting the EPD data digitally, which is possible 
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -94,9 +92,18 @@ the Grasshopper script.
 
 ![<img src="doc/diagrams/workflow_jan_22.png"/>](doc/diagrams/workflow_jan22.png "Workflow")
 
-<!-- USAGE EXAMPLE -->
-## Usage Example
+<!-- USAGE SPECIFICATIONS -->
+## Usage specifications
+Here are some practical tips for using the scripts and code and what you should be aware of.
 
+### Usage of Grasshopper script
+For the visualization of results the boxplot-component from the 
+[DecodingSpaces Toolbox](https://toolbox.decodingspaces.net/) is used. To use these components R 3.4.4 is also required.  
+The ‘toggle’ should be put to true and results for the different building 
+components are selected through the drop-down menu ‘Item selector’. 
+
+### Usage of python scripts
+It is important to add your ECO Portal token to be allowed to 
 
 
 <!-- CREATORS -->
