@@ -62,95 +62,79 @@ It is the beginning of a bigger project which will lead up to our thesis project
 As we are architectural engineering students our expertise lies in LCA analysis of buildings, but we are very passionate about 
 digital tools that can help make the building industry become more efficient.
 The code is built with the intent to implement a user interface with required user inputs. At present, hardcoded variables performs as placeholders for imaginary user inputs. 
-We will be updating and adding to this repository frequently and we will very much appreciate comments and suggestions 
+We will be updating and adding to this repository frequently, and we will very much appreciate comments and suggestions 
 if anyone is interested. 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
-If you are not familiar with the data structure of LCAbyg JSON we recommend that you read the LCAbyg JSON
-user guide first and watch some of LCAbyg's YouTube webinars on how to use JSON. 
-[Download](https://www.lcabyg.dk/da/usermanual/brugervejledning-andre-vaerktojer/) the LCAbyg manual or 
-watch our JSON webinars [here](https://www.youtube.com/watch?v=KLitrgl8OhY&list=PLzSTwx1m_PoFXkleYcvKrJoKyaGh76mLQ&index=1).
-We are currently working on making the LCAbyg Web API public. Until then, it is only possible to view 
-the parameterization and calculation modules. 
-The analysis module is open for testing. We have provided example data "case 2" for you to test the analysis scripts with.
+This project can be approached as one large project or two smaller, the Grasshopper part and the Python part, which 
+can be worked with individually. Prerequisites 1 to 5 are for running the Python code, while the rest are for running
+the Grasshopper script. 
+
 ### Prerequisites
 1. Clone the repo
    ```sh
-   git clone https://github.com/build-aau/parmesan.git
+   git clone https://github.com/NajaJohansen/GrassHopper_Course.git
    ```
-2. Install the Python version 3.10 and poetry [poetry](https://python-poetry.org/)
-3. install packages from poetry [pyproject.toml](pyproject.toml)
-<p align="right">(<a href="#top">back to top</a>)</p>
+2. Install Python version 3.10
+3. For python install requests
+   ```sh
+   $ python -m pip install requests
+   ```
+4. [Register](https://data.eco-platform.org/registration.xhtml) for a ECO Portal user account or [this guide](https://data.eco-platform.org/static/doc/ECO_Portal_API_Howto_Obtain_a_Token.pdf)
+5. [Create a token](https://data.eco-platform.org/static/doc/ECO_Portal_API_Howto_Obtain_a_Token.pdf) for access to use the API
+6. Install Rhino and Grasshopper
+7. For Grasshopper get DecondingSpaces Toolbox
+8. for Grasshopper get R 3.4.4
+
 
 <!-- CONCEPT -->
 ## Concept
-The diagram below shows the workflow for the project in its current stage. It is organized into three 
-main modules: parametric, calculation, analyzing. This makes it possible to work and use each section independently.
-Until now, we have developed the highlighted modules.
+
 ![<img src="doc/diagrams/workflow_jan_22.png"/>](doc/diagrams/workflow_jan22.png "Workflow")
-The source project must be an LCAbyg-structured building project in the JSON format.
-The user must also create a configurations_input.json file with the nodes to be replaced and the nodes to replace with. 
-From this, the script generate_configurations.py automatically generates a list of configurations 
-for each version of the building project. 
-![<img src="doc/diagrams/workflow_jan_22.png"/>](doc/diagrams/Conf_v2.png "Workflow")
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLE -->
 ## Usage Example
-We have provided an example dataset for a simple building project named "case 2", containing five different building 
-configurations. 
-Until access to the LCAbyg web API is acquired the calculated results for case 2 are located in [case2_results_collected.json](res/api_saved_res/output_case2_conf_gen2/case2_results_collected.json)
-This can be used to run any of the scripts from the analysis module of the workflow without access to the LCAbyg Web API. 
-The processing of the LCA results and the layout of the graphs can be designed as desired and can handle the
-comparison of different versions of a building.
-####Examples of types of graphs generated from the scrips are:
-The many versions of the hotspot, seen in hotspot diagram, allow a look into the main contributors to the impact of the building configurations.
-This type of graph can show the hotspot for building elements, constructions, and products, with or without splitting
 
 
-<!-- ROADMAP -->
-## Roadmap
-- [x] Source Case Projects (JSON)
-   - [x] Case 1 (incl. constructions) w/Example data
-   - [x] Case 2 (incl. constructions and products) w/Example data
-- [x] Configuration input files (.py)
-  - [x] configurations_input_case_1 
-  - [x] configurations_input_case_2 
-    - [ ] configurations_input_case_2b (create better use case examples)
-      - [ ] Automatic find id's for children within parents
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-  
+<!-- CREATORS -->
+## Creators
+- Andreas Sode Vest (s173798)
+- Lærke Vejsnæs (s173832)
+- Naja Johansen (s184525)
+- Anna Kristina Schjerbeck (s161709)
+- Christian Oettinger (s173838)
+- Manja Nørrekær Lund (s173803)
+
 <!-- CONTRIBUTING -->
 ## Contributing
-If you have a suggestion that would make this better, you are welcome to create a [pull request](https://github.com/build-aau/parmesan/pulls).
-<p align="right">(<a href="#top">back to top</a>)</p>
+This project can be the beginning of a larger project with a lot of potential. 
+We therefore strongly encourage further work,
+which can help develop the project and make EPD data more available. 
+You are welcome to create a [pull request](https://github.com/NajaJohansen/GrassHopper_Course/pulls) or 
+[create a new fork](https://github.com/NajaJohansen/GrassHopper_Course/fork).
+If you want a good place to start then take a look at the 
+[issues](https://github.com/NajaJohansen/GrassHopper_Course/issues) or see where to 
+[contribute](https://github.com/NajaJohansen/GrassHopper_Course/contribute). If you do contribute, please share your
+great work, so we can build a great projects together.
 
 <!-- LICENSE -->
 ## License
 Distributed under the AGPL License. See [LICENSE.md](LICENSE.md) for more information.
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-## Contact
-* Lærke Høvsgaard Vejsnæs: [lhv@build.aau.dk](mailto:lhv@build.aau.dk)
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[contributors-url]: https://github.com/NajaJohansen/GrassHopper_Course/contribute
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
+[forks-url]: https://github.com/NajaJohansen/GrassHopper_Course/fork
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
+[stars-url]: https://github.com/NajaJohansen/GrassHopper_Course/stargazers
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
+[issues-url]: https://github.com/NajaJohansen/GrassHopper_Course/issues
 [license-shield]: https://img.shields.io/badge/LICENSE-GNU%20AGPL-lightgrey?style=for-the-badge&logo=gnu
 [license-url]: https://www.gnu.org/licenses/agpl-3.0.en.html
-[product-screenshot]: images/screenshot.png
-[lcabyg-shield]: https://img.shields.io/badge/Website-LCAbyg-green?style=for-the-badge
+
