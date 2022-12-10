@@ -8,6 +8,7 @@ import export
 URL = 'https://data.eco-platform.org/resource/processes?search=true&distributed=true&virtual=true&metaDataOnly=false'
 
 # The token from the ECO portal user acount
+# TODO: REMEMBER TO ADD YOUR TOKEN BELOW
 token = 'Bearer *INSERT YOUR TOKEN HERE*'
 # Parameters to search for
 meta_parameters = {'pageSize': '1000', 'validUntil': '2022', 'format': 'JSON', 'classes': 'bauprodukte'}

@@ -80,6 +80,7 @@ def get_epd_info_level_2(epd_data: dict, name_list: list, gwp_list: list, uuid_l
         uuid_list.append(temp_uuid)
         density_list.append(temp_density)
 
+
 def find_ibu_classification(epd_data_json: dict):
     """
     This function finds the IBU classification for the EPD. This classification is used to sort the EPDs into
