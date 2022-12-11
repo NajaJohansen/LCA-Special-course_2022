@@ -65,7 +65,7 @@ of the building design, from early stage to documentation in planning stage. In 
 [Flowcharts](figures/Flowcharts) of the workflow with different LCA tools are located. 
 The flowchart is based on our expression of the tools and are not crosschecked 
 with the developers of the tool. The LCA tools that have been examined is: 
-- DesignLCA, developed by Graphisoft and with input from Lenager group. The tool is made for Archicad and gives live results and has implemented a simple energy calculator. The user has to manually assign CO2 data to the materials or use a library with predefined constructions (NAJA MÅ GERNE RETTE)
+- DesignLCA, developed by Graphisoft and with input from Lenager group. The tool is made for Archicad and gives live results and has implemented a simple energy calculator. The user has to manually assign CO2 data to the materials or use a library with predefined constructions.
 - LCA Platform, developed by Arkitema and COWI. The tool is divided in two; LCA documentation and LCA design. LCA documentation is for documentation behind the final LCA of project. It is going to be a mutual platform for the Danish building industry, which aim is to secure that across companies the LCA, they are performing have the same level of documentation. The tool can create a JSON file that ca be used in LCAbyg. The other tool; LCA Design is developed for Revit, gives live results in a browser window. 
 - CardinalLCA is developed by J. Chen, K. Kharbanda and H Loganathan as a plugin for Grasshopper. The tool is designed for early stage LCA and gives live results and visualizations in Rhino. The users can assign materials for the building geometry through the EC3 database or the ICE database. Here they have the option to choose specific data or to create average data. The average data can be found through different filters e.g. by geographical scope.
 - ACT – A Carbon Tool, created for Speckle by [Arup](https://act.speckle.arup.com/about). It is a very simple tool reading the ifc model of the building from Speckle and allowing you to add specific LCA data to the ifc types.
@@ -96,6 +96,55 @@ and API from which the EPD data can be requested and processed in your code. All
 token, which can be used to get the data for free. In this project we have used Python to get the data using
 [Requests](https://requests.readthedocs.io/en/latest/#). The same is possible to do for OKOBAU but this has not been
 solved in this projects yes. See the issues.
+
+### Grasshopper script
+Within the Grasshopper script different building quantities are collected from the 3D model. In this case a parametric 
+building model is created for retrieving the building component quantities. It could however also be a Rhino model split
+into component layers. The Rhino model include quantities for the following components:	
+
+- Foundation
+- Terrain
+- Floor slabs
+- Roofing
+- Exterior wall
+- Windows
+- Exterior door
+- Interior wall
+- Interior door
+- Columns
+- Beams
+
+
+Hereafter, all the EPDs are imported from an Excel file. In total 265 EPDs are included, however this could be further 
+expanded. The data is sorted and rows with no values are removed. Items with no end of life-scenario (C3-C4) are 
+removed. Replacements are added in B4 based on the product lifetime compared with the building lifetime (default 
+is 50 years as in the Danish building regulations). If the product lifetime is shorter than the building lifetime, 
+B4 is calculated based on A1-A3 and C3-C4. If A4 and A5 are not included for the items, they are calculated based 
+on weight and a default distance of transportation of 500 km or a waste factor for A4 and A5 respectively. At last, 
+the data is sorted in the different building components. 
+Each building component is sorted in its subcategories, which for example for an exterior wall would be façade, 
+insulation, interior boards and panels, interior surface, and structure. Within each of these subcategories, 
+‘Items Selectors’ allows for the EPD data to be narrowed down as it possible to choose from different overall 
+materials (for example glass wool, stone wool, and wood fiber for insulation). Based on this selection, only 
+the EPDs within this material choice are included. If further precision is wanted, specific product EPD’s can be 
+chosen as well. 
+As all possibilities are included from the beginning, this creates a large amount of possible building components 
+(for example 269,748 different possibilities for the exterior wall). If all components are added together, it would 
+create a total of 2.9E+21 possibilities and result in a incredible slow computational process. To reduce this, only 
+the minimum, median and maximum values are found for all the combinations and are matched. This way only three values 
+for each building component is required, resulting in a total of 59,049 possibilities and a faster use of the script.  
+Of course, this is a simplification of the actual results and the final building boxplot would therefore have been 
+different if all possibilities were included, however it is estimated that the computational time would be way to 
+high for actual use of the script. 
+The data is collected in a tree, which is connected to a boxplot component from DecodingSpaces (requires R 3.4.4) and 
+an Item Selector. The desired output is selected from the Item Selector and the output is shown in separate view 
+(if ‘True’). DecodingSpaces allows for multiple types of plots, which can be added for more functionality. 
+Currently, boxplot only works for one building component at a time or the full building.
+Another possibility for visualization of the LCA results is to use Hops Plot-it / Seaborn Grasshopper: 
+https://github.com/MaesAntoine/Hops_plots by Antoine Maes 
+https://github.com/monsieurpablo/seaborn_grasshopper by Juan Pablo Arango 
+This option uses Rhino ‘Hops’, which was explored and fixed the issue of only showing one boxplot at a time. 
+The data was split into ‘Full Building’ and ‘Building Components’, showing all the relevant boxplots in the same view. However, it was difficult to make this work on different pc’s from the one where it was originally set up and thus not implemented in the final script. 
 
 
 ### Categorization of EPDs
