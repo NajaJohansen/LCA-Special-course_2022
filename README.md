@@ -250,12 +250,12 @@ added.
 
 <!-- CREATORS -->
 ## Creators
-- Andreas Sode Vest (s173798)
-- Lærke Vejsnæs (s173832)
-- Naja Johansen (s184525)
-- Anna Kristina Schjerbeck (s161709)
-- Christian Oettinger (s173838)
-- Manja Nørrekær Lund (s173803)
+- Andreas Sode Vest
+- Lærke Vejsnæs
+- Naja Johansen
+- Anna Kristina Schjerbeck
+- Christian Oettinger
+- Manja Nørrekær Lund
 
 <!-- CONTRIBUTING -->
 ## Contributing
