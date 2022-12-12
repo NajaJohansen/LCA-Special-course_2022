@@ -14,6 +14,7 @@
     <a href="https://github.com/NajaJohansen/GrassHopper_Course/issues">Elaboration of unsolved issues</a>
   </p>
 </div>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -23,6 +24,7 @@
       <ul>
         <li><a href="#Existing">Existing LCA tools</a></li>
         <li><a href="#Requesting">Requesting EPD data via API</a></li>
+        <li><a href="#Requesting">Grasshopper script</a></li>
          <li><a href="#Requesting">Categorization of EPDs</a></li>
       </ul>
     </li>
@@ -46,6 +48,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
 The project has been performed by 6 master students as part of a 5 ECTS point course at the Technical University of 
 Denmark (DTU). The project started with the idea that by conveying LCA results with a range instead of a single number, 
 designers are to a greater extent made aware of the impact of their decisions. This will help integrate sustainable 
